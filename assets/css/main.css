@@ -172,8 +172,7 @@
 
 	/* Set your background with this */
 
-		background: url("images/intro-bg.jpg") bottom left;
-
+		background-color: #4d4d4d;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -861,7 +860,7 @@
 		}
 
 		#bg {
-			background: url("images/intro-bg.jpg");
+			background-color: #4d4d4d;
 			background-size: 300px auto;
 			height: 100%;
 			width: 900px;
