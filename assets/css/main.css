@@ -381,6 +381,7 @@
 		width: 90%;
 	}
 		#header img{
+			background: #348cb2 url("images/Puri.jpg");
 		  border-radius: 50%;
 			width: auto;
 			height: 300px;
