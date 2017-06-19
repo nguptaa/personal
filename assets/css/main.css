@@ -862,13 +862,9 @@
 
 		#bg {
 			background: url("images/intro-bg.jpg");
-
-			background-repeat: repeat-x;
+			background-size: 300px auto;
 			height: 100%;
-			left: 0;
-			opacity: 1;
-			position: relative;
-			top: 0;
+			width: 900px;
 		}
 
 	/* Header */
