@@ -381,7 +381,8 @@
 		width: 90%;
 	}
 		#header img{
-			background: #348cb2 url("images/Puri.jpg");
+			background: ("images/Puri.jpg");
+			background-size: auto;
 		  border-radius: 50%;
 			width: auto;
 			height: 300px;
@@ -923,10 +924,13 @@
 
 		#bg {
 			background-size: 412.5px auto;
-			width: 1237.5px;
+			width: 1237.5px auto;
 		}
 	/* Header */
-
+		#header img{
+			background-size: auto;
+		}
+		
 		#header nav {
 			padding: 0 1em;
 		}}
