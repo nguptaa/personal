@@ -820,10 +820,9 @@
 
 	/* Header */
 	  #header img{
-		border-radius: auto;
+		background-size: auto;
 		width: 50px;
-		height: 50px;
-		position: relative;
+
 	  }
 
 		#header h1 {
