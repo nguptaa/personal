@@ -172,7 +172,8 @@
 
 	/* Set your background with this */
 
-		background-color: #4d4d4d;
+		background: url("images/intro-bg.jpg") bottom left;
+
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -861,9 +862,13 @@
 
 		#bg {
 			background: url("images/intro-bg.jpg");
-			background-size: 300px auto;
+
+			background-repeat: repeat-x;
 			height: 100%;
-			width: 900px;
+			left: 0;
+			opacity: 1;
+			position: relative;
+			top: 0;
 		}
 
 	/* Header */
