@@ -1,1 +1,0 @@
-# nguptaa.github.io
