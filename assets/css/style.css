@@ -1,7 +1,7 @@
 /* CSS used here will be applied after bootstrap.css */
 html,body {
   height:100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -22,6 +22,12 @@ html,body {
   color: white;
   text-transform: uppercase;
   padding-top: 25px;
+  letter-spacing: 1.5px;
+}
+
+li{
+  margin-right: 15px;
+
 }
 
 
@@ -44,6 +50,7 @@ section {
 }
  h4{
    padding-top: 8px;
+
  }
 
 
