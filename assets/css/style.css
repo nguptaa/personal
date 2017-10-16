@@ -1,9 +1,11 @@
 /* CSS used here will be applied after bootstrap.css */
 html,body {
   height:100%;
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
+
+
 
 .first {
   padding-top:140px;
@@ -18,7 +20,6 @@ html,body {
 
 .fixed-top{
   color: white;
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   padding-top: 25px;
 }
