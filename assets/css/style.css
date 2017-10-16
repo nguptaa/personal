@@ -1,0 +1,57 @@
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+  height:100%;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+
+}
+
+.first {
+  padding-top:140px;
+  height:8vh;
+  min-height:300px;
+  background-size:cover;
+  background-image:url('../img/sea.jpg');
+  background-position: center;
+
+
+}
+
+.fixed-top{
+  color: white;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+
+
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
+
+.avatar{
+  position: relative;
+  margin: auto;
+  display: block;
+  bottom: 68px;
+}
+
+.rounded-circle{
+  border: 2px solid white;
+}
+ h4{
+   padding-top: 8px;
+ }
+
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    text-align: center;
+}
