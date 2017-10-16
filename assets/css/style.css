@@ -8,7 +8,7 @@ html,body {
 .first {
   padding-top:140px;
   height:8vh;
-  min-height:300px;
+  min-height:260px;
   background-size:cover;
   background-image:url('../img/sea.jpg');
   background-position: center;
