@@ -1,6 +1,7 @@
 /* CSS used here will be applied after bootstrap.css */
 html,body {
   height:100%;
+  padding-bottom: 70px;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -18,11 +19,13 @@ html,body {
 
 }
 
-.fixed-top{
+.navbar{
   color: white;
   text-transform: uppercase;
-  padding-top: 25px;
+  padding: 25px;
   letter-spacing: 1.5px;
+  background: rgba(0, 0, 0, 0);
+
 }
 
 li{
@@ -30,6 +33,13 @@ li{
 
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    width: 40%;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+}
 
 
 
@@ -47,6 +57,8 @@ section {
 
 .rounded-circle{
   border: 2px solid white;
+
+
 }
  h4{
    padding-top: 8px;
@@ -55,11 +67,54 @@ section {
 
 
  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: rgba(0,0,0,0);
     color: black;
     text-align: center;
+}
+
+
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .img-thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .img-thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+    max-height:250px;
+    width:100%;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
 }
