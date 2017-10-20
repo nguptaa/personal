@@ -16,8 +16,9 @@ html,body{
   height: 8vh;
   min-height: 260px;
   background-size: cover;
-  background-image: url('../img/DynamicCover/6.jpg');
+  background-image: url('../img/DynamicCover/1.jpg');
   background-position: center;
+  filter: blur(2px);
 }
 
 li{
@@ -42,10 +43,6 @@ h4{
 
 .key{
   color: rgba(0, 0, 0, 0.5);
-}
-
-h2{
-  margin: 30px;
 }
 
 .content{
