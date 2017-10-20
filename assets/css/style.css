@@ -16,7 +16,7 @@ html,body{
   height: 8vh;
   min-height: 260px;
   background-size: cover;
-  background-image: url('../img/DynamicCover/1.jpg');
+  background-image: url('../img/DynamicCover/coveroptimized.jpg');
   background-position: center;
   filter: blur(2px);
 }
@@ -67,6 +67,50 @@ h4{
 .pull-right{
   float: right;
   padding-right: 3px;
+}
+
+.green{
+  background-color: #66BB6A;
+}
+
+.blue{
+  background-color: #29B6F6;
+}
+
+.yellow{
+  background-color: #FFB74D;
+}
+
+.red{
+  background-color: #e57373;
+}
+
+.teal{
+  background-color: #26A69A;
+}
+
+.indigo{
+  background-color: #5C6BC0;
+}
+
+.orange{
+  background-color: #FF8A65;
+}
+
+.pink{
+  background-color: #F06292;
+}
+
+.purple{
+  background-color: #B39DDB;
+}
+
+.brown{
+  background-color: #8D6E63;
+}
+
+.cyan{
+  background-color: #CDDC39;
 }
 
 hr{
