@@ -1,120 +1,88 @@
-/* CSS used here will be applied after bootstrap.css */
-html,body {
-  height:100%;
-  padding-bottom: 70px;
-  font-family: 'Roboto', sans-serif;
-
-}
-
-
-
-.first {
-  padding-top:140px;
-  height:8vh;
-  min-height:260px;
-  background-size:cover;
-  background-image:url('../img/sea.jpg');
-  background-position: center;
-
-
+html,body{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
   color: white;
   text-transform: uppercase;
   padding: 15px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   background: rgba(0, 0, 0, 0);
+}
 
+.first{
+  padding-top: 140px;
+  height: 8vh;
+  min-height: 260px;
+  background-size: cover;
+  background-image: url('../img/DynamicCover/1.jpg');
+  background-position: center;
 }
 
 li{
-  margin-right: 15px;
-
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    width: 40%;
-
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
-}
-
-
-
-section {
-  height:calc(90% - 50px);
-  height: 90vh;
+  margin-right: 1px;
 }
 
 .avatar{
   position: relative;
   margin: auto;
   display: block;
-  bottom: 68px;
+  bottom: 63px;
 }
 
 .rounded-circle{
   border: 2px solid white;
-
-
-}
- h4{
-   padding-top: 8px;
-
- }
-
-
- .footer {
-    background-color: rgba(0,0,0,0);
-    color: black;
-    text-align: center;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-
-
-.tz-gallery {
-    padding: 40px;
+h4{
+  padding-top: 15px;
 }
 
-.tz-gallery .img-thumbnail {
-    padding: 0;
-    margin-bottom: 30px;
-    background-color: #fff;
-    border-radius: 4px;
-    border: none;
-    transition: 0.15s ease-in-out;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+.key{
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.tz-gallery .img-thumbnail:hover {
-    transform: translateY(-10px) scale(1.02);
+h2{
+  margin: 30px;
 }
 
-.tz-gallery .lightbox img {
-    border-radius: 4px 4px 0 0;
-    max-height:250px;
-    width:100%;
+.content{
+  position: relative;
+  top: -60px;
 }
 
-.tz-gallery .caption{
-    padding: 26px 30px;
-    text-align: center;
+.progress{
+  margin: 10px;
 }
 
-.tz-gallery .caption h3 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 0;
+.skillbar{
+  margin: 10px;
+  font-size: 25px;
 }
 
-.tz-gallery .caption p {
-    font-size: 12px;
-    color: #7b7d7d;
-    margin: 0;
+.pull-left{
+  float: left;
+  padding-left: 3px;
 }
 
-.baguetteBox-button {
-    background-color: transparent !important;
+.pull-right{
+  float: right;
+  padding-right: 3px;
+}
+
+hr{
+  position: relative;
+  top:-20px;
+  border: 0;
+  height: 1px;
+  width: 40%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black , rgba(0, 0, 0, 0));
+}
+
+.footer{
+  background-color: rgba(0,0,0,0);
+  color: black;
+  text-align: center;
 }
