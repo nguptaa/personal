@@ -123,6 +123,9 @@ hr{
 }
 
 .footer{
+  -moz-align-self: -moz-flex-end;
+  -webkit-align-self: -webkit-flex-end;
+  -ms-align-self: -ms-flex-end;
   background-color: rgba(0,0,0,0);
   color: black;
   text-align: center;
