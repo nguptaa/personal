@@ -19,7 +19,7 @@ html,body{
   background-size: cover;
   background-image: url('../img/cover.jpg');
   background-position: center;
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 .right{
@@ -46,7 +46,7 @@ h4{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.social-icons{
+.socialicons{
   margin-bottom: 3px;
 }
 
