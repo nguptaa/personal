@@ -22,7 +22,7 @@ html,body{
   filter: blur(2px);
 }
 
-.nav-item{
+.right{
   margin-right: 1px;
 }
 
@@ -47,12 +47,16 @@ h4{
 }
 
 .social-icons{
-  margin-bottom: 15px;
+  margin-bottom: 3px;
+}
+
+.social{
+  margin: -7.5px;
 }
 
 .content{
   position: relative;
-  top: -60px;
+  top: -40px;
 }
 
 .progress{
@@ -100,7 +104,7 @@ h4{
 
 hr{
   position: relative;
-  top:-20px;
+  top:-15px;
   border: 0;
   height: 1px;
   width: 40%;
