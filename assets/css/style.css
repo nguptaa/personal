@@ -45,17 +45,13 @@ h4{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.socialicons{
-  margin-bottom: 3px;
-}
-
-.social{
-  margin: -7.5px;
+.aboutme{
+  margin-bottom: -20px;
 }
 
 .content{
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 
 .progress{
@@ -103,7 +99,7 @@ h4{
 
 hr{
   position: relative;
-  top:-15px;
+  top:-25px;
   border: 0;
   height: 1px;
   width: 40%;
