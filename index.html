@@ -23,17 +23,24 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- particles style -->
   <link rel="stylesheet" type="text/css" href="assets/css/particles.css">
+  <!-- loading bar style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/loading.css">
   <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 </head>
 <body>
+  <!-- loading bar -->
+  <div id="overlay">
+    <div id="progstat"></div>
+    <div id="progress"></div>
+  </div>
 
   <!-- navbar -->
   <nav class="navbar fixed-top navbar-expand-md navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="assets/img/home.svg" height="25" width="25" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span><img src="assets/img/menu.svg" height="25" width="25" /></span>
+        <span><img src="assets/img/code.svg" height="25" width="25" /></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -63,7 +70,7 @@
   <!-- container open -->
   <div class="container">
 
-  <!-- Nikhil avatar -->
+    <!-- Nikhil avatar -->
     <div class="avatar text-center">
       <img src="assets/img/avatar.jpg" class="img-fluid rounded-circle" width="160" height="160"/>
       <h4 id="about">Nikhil Gupta</h4>
@@ -188,18 +195,22 @@
   <!-- footer -->
   <div class="footer">
     <p>Copyright © Nikhil Gupta</p>
+  </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
-    <!-- particles script -->
-    <script type="text/javascript" src="assets/js/particles.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <!-- InstantClick JS -->
-    <script src="assets/js/instantclick.min.js" data-no-instant></script>
-    <script data-no-instant>InstantClick.init();</script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <!-- particles script -->
+  <script type="text/javascript" src="assets/js/particles.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <!-- loading bar script -->
+  <script type="text/javascript" src="assets/js/loading.js"></script>
 
-  </body>
-  </html>
+  <!-- InstantClick JS -->
+  <script src="assets/js/instantclick.min.js" data-no-instant></script>
+  <script data-no-instant>InstantClick.init();</script>
+
+</body>
+</html>
