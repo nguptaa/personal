@@ -17,7 +17,7 @@ html,body{
   height: 8vh;
   min-height: 260px;
   background-size: cover;
-  background-image: url('../img/DynamicCover/coveroptimized.jpg');
+  background-image: url('../img/cover.jpg');
   background-position: center;
   filter: blur(2px);
 }
