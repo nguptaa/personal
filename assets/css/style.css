@@ -45,17 +45,13 @@ h3{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.aboutme{
-  margin-bottom: -8px;
-}
-
 .social{
   margin: -7px;
 }
 
 .content{
   position: relative;
-  top: -60px;
+  top: -50px;
 }
 
 .progress{
