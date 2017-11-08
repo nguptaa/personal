@@ -39,8 +39,6 @@ html,body{
   bottom: 605px;*/
   position: relative;
   bottom: 22px;
-  height: 100vh;
-  min-height: 400px;
 }
 
 .rounded-circle{
