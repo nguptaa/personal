@@ -25,11 +25,19 @@ html,body{
   margin-right: 1px;
 }
 
+.fa{
+  color: #cdcad5;
+}
+
+.fa:hover{
+  color: white;
+}
+
 .avatar{
   position: relative;
   margin: auto;
   display: block;
-  bottom: 575px;
+  bottom: 620px;
   /*padding-top: 20px;
   height: 100vh;
   min-height: 400px;*/
@@ -41,8 +49,14 @@ html,body{
 }
 
 h3{
-  padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 35px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.highlight{
+  color: #f3f3e5;
 }
 
 h6{

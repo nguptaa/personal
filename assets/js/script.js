@@ -1,3 +1,4 @@
+// navbar scroll
 $(document).ready(function(){
   $(window).on("scroll",function(){
     var wn = $(window).scrollTop();
@@ -8,4 +9,9 @@ $(document).ready(function(){
       $(".navbar").css("background","rgba(0,0,0,0)");
     }
   });
+});
+
+// tooltip
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
 });
