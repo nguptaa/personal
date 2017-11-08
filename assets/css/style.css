@@ -26,9 +26,13 @@ html,body{
 }
 
 .avatar{
-  padding-top: 20px;
+  position: relative;
+  margin: auto;
+  display: block;
+  bottom: 600px;
+  /*padding-top: 20px;
   height: 100vh;
-  min-height: 400px;
+  min-height: 400px;*/
 }
 
 .rounded-circle{
