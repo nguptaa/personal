@@ -1,5 +1,6 @@
 html,body{
   width: 100%;
+  height: 100%;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,9 +16,15 @@ html,body{
 .first{
   padding-top: 140px;
   height: 100vh;
+  min-height: 400px;
   background-size: cover;
   background-image: url('../img/Optimized-bg.jpg');
   background-position: center;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
 }
 
 .link{
@@ -37,8 +44,9 @@ html,body{
   margin: auto;
   display: block;
   bottom: 605px;*/
-  position: relative;
-  bottom: 22px;
+
+  /*position: relative;
+  bottom: 22px;*/
 }
 
 .rounded-circle{
