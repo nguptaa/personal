@@ -37,6 +37,8 @@ html,body{
   margin: auto;
   display: block;
   bottom: 605px;*/
+  position: relative;
+  bottom: 22px;
   height: 100vh;
   min-height: 400px;
 }
