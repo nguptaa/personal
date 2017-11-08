@@ -30,7 +30,7 @@ html,body{
   position: relative;
   margin: auto;
   display: block;
-  bottom: 600px;
+  bottom: 575px;
   /*padding-top: 20px;
   height: 100vh;
   min-height: 400px;*/
@@ -59,7 +59,7 @@ h6{
 }
 
 .content{
-  margin-top: -325px;
+  margin-top: -300px;
 }
 
 .progress{
