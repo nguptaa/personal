@@ -15,7 +15,6 @@ html,body{
 .first{
   padding-top: 140px;
   height: 100vh;
-  min-height: 400px;
   background-size: cover;
   background-image: url('../img/Optimized-bg.jpg');
   background-position: center;
@@ -34,13 +33,12 @@ html,body{
 }
 
 .avatar{
-  position: relative;
+  /*position: relative;
   margin: auto;
   display: block;
-  bottom: 605px;
-  /*padding-top: 20px;
+  bottom: 605px;*/
   height: 100vh;
-  min-height: 400px;*/
+  min-height: 400px;
 }
 
 .rounded-circle{
@@ -72,7 +70,7 @@ h6{
 }
 
 .content{
-  margin-top: -300px;
+  margin: 25px;
 }
 
 .progress{
