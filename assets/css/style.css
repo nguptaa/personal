@@ -1,6 +1,11 @@
-html,body{
-  width: 100%;
+html{
   height: 100%;
+  width: 100%;
+}
+
+body{
+  position: relative;
+  width: 100%;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -22,11 +27,6 @@ html,body{
   background-position: center;
 }
 
-section {
-  height:calc(90% - 50px);
-  height: 90vh;
-}
-
 .link{
   margin-right: 1px;
 }
@@ -44,9 +44,10 @@ section {
   margin: auto;
   display: block;
   bottom: 605px;*/
-
-  /*position: relative;
-  bottom: 22px;*/
+  position: relative;
+  display: block;
+  height: 100vh;
+  min-height: 400px;
 }
 
 .rounded-circle{
