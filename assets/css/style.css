@@ -14,10 +14,10 @@ html,body{
 
 .first{
   padding-top: 140px;
-  height: 8vh;
-  min-height: 260px;
+  height: 100vh;
+  min-height: 400px;
   background-size: cover;
-  background-image: url('../img/cover.jpg');
+  background-image: url('../img/christopher-burns-189800.jpg');
   background-position: center;
 }
 
@@ -26,10 +26,9 @@ html,body{
 }
 
 .avatar{
-  position: relative;
-  margin: auto;
-  display: block;
-  bottom: 63px;
+  padding-top: 20px;
+  height: 100vh;
+  min-height: 400px;
 }
 
 .rounded-circle{
@@ -39,10 +38,15 @@ html,body{
 
 h3{
   padding-top: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h6{
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .key{
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .social{
@@ -50,8 +54,7 @@ h3{
 }
 
 .content{
-  position: relative;
-  top: -50px;
+  margin-top: 50px;
 }
 
 .progress{
@@ -98,8 +101,9 @@ h3{
 }
 
 hr{
+  margin-top: 50px;
   position: relative;
-  top:-25px;
+  top: 0;
   border: 0;
   height: 1px;
   width: 40%;
