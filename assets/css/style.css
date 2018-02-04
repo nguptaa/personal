@@ -49,6 +49,14 @@ h3{
   margin: -7px;
 }
 
+.fa{
+  transition: transform 0.2s;
+}
+
+.fa:hover{
+  transform: scale(1.5);
+}
+
 .content{
   position: relative;
   top: -30px;
