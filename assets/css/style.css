@@ -1,10 +1,4 @@
-html{
-  height: 100%;
-  width: 100%;
-}
-
-body{
-  position: relative;
+html,body{
   width: 100%;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -20,10 +14,10 @@ body{
 
 .first{
   padding-top: 140px;
-  height: 100vh;
-  min-height: 400px;
+  height: 8vh;
+  min-height: 260px;
   background-size: cover;
-  background-image: url('../img/Optimized-bg.jpg');
+  background-image: url('../img/cover.jpg');
   background-position: center;
 }
 
@@ -31,23 +25,11 @@ body{
   margin-right: 1px;
 }
 
-.fa{
-  color: #cdcad5;
-}
-
-.fa:hover{
-  color: white;
-}
-
 .avatar{
-  /*position: relative;
+  position: relative;
   margin: auto;
   display: block;
-  bottom: 605px;*/
-  position: relative;
-  display: block;
-  height: 100vh;
-  min-height: 400px;
+  bottom: 63px;
 }
 
 .rounded-circle{
@@ -56,22 +38,11 @@ body{
 }
 
 h3{
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 35px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.highlight{
-  color: #f3f3e5;
-}
-
-h6{
-  color: rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
 }
 
 .key{
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .social{
@@ -79,7 +50,8 @@ h6{
 }
 
 .content{
-  margin: 25px;
+  position: relative;
+  top: -50px;
 }
 
 .progress{
@@ -126,9 +98,8 @@ h6{
 }
 
 hr{
-  margin-top: 50px;
   position: relative;
-  top: 0;
+  top:-25px;
   border: 0;
   height: 1px;
   width: 40%;
