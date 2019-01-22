@@ -17,6 +17,7 @@ a:focus {
   text-decoration: none;
 }
 
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -115,11 +116,12 @@ a:focus {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url('../img/intro-bg.jpg');
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('../img/intro-bg.jpg');
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url('../img/bg-main.jpg');
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('../img/bg-main.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .masthead h1 {
