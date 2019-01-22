@@ -23,6 +23,12 @@
     }
   });
 
+  // tooltip
+  $(function () {
+    $("[data-toggle='tooltip']").tooltip();
+  });
+
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('#sidebar-wrapper .js-scroll-trigger').click(function () {
     $("#sidebar-wrapper").removeClass("active");
