@@ -293,8 +293,17 @@ h6 {
   pointer-events: none;
 }
 
+#contact hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
 
-hr {
+#contact hr.light {
+  border-color: #fff;
+}
+
+.last-hr{
   margin-top: 50px;
   position: relative;
   top: 0;
@@ -304,14 +313,29 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
 }
 
-.footer {
-  -moz-align-self: -moz-flex-end;
-  -webkit-align-self: -webkit-flex-end;
-  -ms-align-self: -ms-flex-end;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  text-align: center;
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
 
 .scroll-to-top {
   position: fixed;
