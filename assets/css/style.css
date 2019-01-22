@@ -23,7 +23,7 @@ body{
   height: 100vh;
   min-height: 400px;
   background-size: cover;
-  background-image: url('../img/Optimized-bg.jpg');
+  background-image: url('../img/intro-bg.jpg');
   background-position: center;
 }
 
