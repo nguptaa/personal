@@ -18,6 +18,11 @@ a:focus {
   text-decoration: none;
 }
 
+.aboutme i{
+  color: #333333;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -189,6 +194,7 @@ h6 {
 
 .key {
   color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
 }
 
 .social {
