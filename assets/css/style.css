@@ -160,6 +160,8 @@ a:focus {
 
 .fa:hover {
   color: white;
+  transform: scale(1.2);
+  transition: transform 0.2s;
 }
 
 
