@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 a,
 a:hover,
 a:active,
@@ -553,7 +554,9 @@ footer.footer .social-link:hover {
   font-size: 3.5em;
   color: #ffffff;
 }
-
+.parallax a{
+  color: inherit;
+}
 .parallax i{
   background-color:rgba(0, 0, 0, 0.3);
   width:100px;
@@ -564,7 +567,6 @@ footer.footer .social-link:hover {
 .parallax i:hover{
   background-color: #D9D6D4;
   color: #33312F;
-
 
 }
 
