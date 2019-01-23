@@ -227,49 +227,24 @@ h6 {
   pointer-events: none;
 }
 
-#contact hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #F05F40;
-}
 
-#contact hr.light {
-  border-color: #fff;
-}
 
-.last-hr{
-  margin-top: 50px;
+
+
+hr {
   position: relative;
-  top: 0;
+  top: -25px;
   border: 0;
   height: 1px;
   width: 40%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), grey, rgba(0, 0, 0, 0));
 }
 
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  font-size: 20px;
 }
-
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
-}
-
 
 .scroll-to-top {
   position: fixed;
@@ -536,7 +511,25 @@ footer.footer .social-link:hover {
 /* projects timeline ends */
 
 /* parallax begins*/
-.parallax {
+
+.parallax1 {
+  background-image: url("../img/projects-main.jpg");
+  min-height: 250px;
+  text-align: center;
+  line-height: 250px;
+  vertical-align: middle;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 span {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #ffffff;
+}
+
+.parallax3 {
   background-image: url("../img/intro-bg.jpg");
   min-height: 300px;
   text-align: center;
@@ -548,23 +541,23 @@ footer.footer .social-link:hover {
   background-size: cover;
 }
 
-.parallax span{
+.parallax2 span{
   display: block;
   font-weight: 700;
   font-size: 3.5em;
   color: #ffffff;
 }
-.parallax a{
+.parallax2 a{
   color: inherit;
 }
-.parallax i{
+.parallax2 i{
   background-color:rgba(0, 0, 0, 0.3);
   width:100px;
   border: 2px solid white;
   border-radius: 40px;
 }
 
-.parallax i:hover{
+.parallax2 i:hover{
   background-color: #D9D6D4;
   color: #33312F;
 
