@@ -26,6 +26,8 @@ a:focus {
 
 /* Side Menu */
 #sidebar-wrapper {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   position: fixed;
   z-index: 2;
   right: 0;
