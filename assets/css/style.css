@@ -18,7 +18,7 @@ a:focus {
   text-decoration: none;
 }
 
-.aboutme i{
+.aboutme i {
   color: #333333;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -138,7 +138,7 @@ a:focus {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-  
+
   }
 
   .masthead h1 {
@@ -146,15 +146,17 @@ a:focus {
   }
 }
 
-.tagline a{
+.tagline a {
   color: #ffffff;
   margin-top: 45px;
 
 }
+
 .tagline a:hover {
   transform: scale(1.5);
   transition: transform 0.2s;
 }
+
 .link {
   margin-right: 1px;
 }
@@ -181,9 +183,11 @@ h3 {
   font-size: 35px;
   color: rgba(0, 0, 0, 0.5);
 }
-h2{
+
+h2 {
   font-weight: 700;
 }
+
 .highlight {
   color: #f3f3e5;
 }
@@ -201,15 +205,16 @@ h6 {
   margin: -7px;
 }
 
-.mb-5{
+.mb-5 {
   margin-bottom: 3rem !important;
 }
 
-.projects{
+.projects {
   padding-top: 5rem;
   padding-bottom: 7rem;
 }
-.projects h2{
+
+.projects h2 {
   text-align: center;
   font-size: 3rem;
 }
@@ -219,7 +224,8 @@ h6 {
   height: 30rem;
   /* background-color: #383838; */
 }
-.map1{
+
+.map1 {
   background-color: #383838;
 }
 
@@ -277,5 +283,3 @@ footer.footer {
 .scroll-to-top i {
   font-weight: 800;
 }
-
-
