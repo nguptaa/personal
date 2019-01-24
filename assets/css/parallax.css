@@ -22,8 +22,9 @@
     background-image: url("../img/work-main.jpg");
     min-height: 250px;
     text-align: center;
-    line-height: 250px;
-    vertical-align: middle;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
