@@ -33,7 +33,7 @@
     width: 95%;
     min-height: 160px;
     padding: 30px 170px 30px 180px;
-    border: 2px solid #4285F4;
+    border: 2px solid #F2675F;
     display: block;
     float: left;
     position: relative;
@@ -76,7 +76,7 @@
 
 .main-timeline2 .timeline-year {
     color: #fff;
-    background: linear-gradient(60deg, #4285F4, #4285F4);
+    background: linear-gradient(60deg, #F2675F, #F2675F);
     font-size: 70px;
     font-weight: 600;
     text-align: center;
