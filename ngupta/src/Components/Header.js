@@ -9,6 +9,7 @@ class Header extends React.Component {
           <div class="ui three column grid">
             <div class="column" />
             <div class="column" />
+
             <div class="column">
               <div class="contents text-center">
                 <h1 class="ui red inverted header">
