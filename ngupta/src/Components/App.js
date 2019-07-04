@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
-import About from "./About";
+// import About from "./About";
 
 class App extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
       <div>
         <Navbar />
         <Header />
-        <About />
+        {/* <About /> */}
       </div>
     );
   }

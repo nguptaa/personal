@@ -1,4 +1,35 @@
 .masthead {
-  background-image: url("../Static/main.jpg") !important;
-  background-size: cover !important;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  color: white;
+  background: url("../Static/main.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.contents {
+  font-size: 15px;
+  float: right;
+  margin-top: 20em;
+  margin-right: 4em;
+}
+
+.fab {
+  color: #767676;
+}
+
+.fab:hover {
+  color: white;
+  transform: scale(1.2);
+  transition: transform 0.2s;
 }
