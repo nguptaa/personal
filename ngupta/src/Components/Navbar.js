@@ -25,38 +25,38 @@ class Navbar extends React.Component {
   }
   render() {
     return (
-      <div class="ui container menu">
-        <a class="menu-toggle rounded" href="https://ngupta.me">
-          <i class="fas fa-bars" />
+      <div>
+        <a className="menu-toggle rounded" href="https://ngupta.me">
+          <i className="fas fa-bars" />
         </a>
         <nav id="sidebar-wrapper">
-          <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-              <a class="js-scroll-trigger" href="#page-top">
+          <ul className="sidebar-nav">
+            <li className="sidebar-brand">
+              <a className="js-scroll-trigger" href="#page-top">
                 Home
               </a>
             </li>
-            <li class="sidebar-nav-item">
-              <a class="js-scroll-trigger" href="#about">
+            <li className="sidebar-nav-item">
+              <a className="js-scroll-trigger" href="#about">
                 About
               </a>
             </li>
-            <li class="sidebar-nav-item">
-              <a class="js-scroll-trigger" href="#services">
+            <li className="sidebar-nav-item">
+              <a className="js-scroll-trigger" href="#services">
                 Projects
               </a>
             </li>
-            <li class="sidebar-nav-item">
+            <li className="sidebar-nav-item">
               <a
-                class="js-scroll-trigger"
+                className="js-scroll-trigger"
                 href="https://medium.com/@nguptaa/kwoc-kharagpur-winter-of-code-final-report-6d9d73ee7428"
                 target="_blank"
               >
                 Blog
               </a>
             </li>
-            <li class="sidebar-nav-item">
-              <a class="js-scroll-trigger" href="#contact">
+            <li className="sidebar-nav-item">
+              <a className="js-scroll-trigger" href="#contact">
                 Contact
               </a>
             </li>
