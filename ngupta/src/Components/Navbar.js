@@ -27,7 +27,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <a className="menu-toggle rounded" href="https://ngupta.me">
-          <i className="fas fa-bars" />
+          <i className="fas fa-bars" style={{ color: "#EB655B" }} />
         </a>
         <nav id="sidebar-wrapper">
           <ul className="sidebar-nav">

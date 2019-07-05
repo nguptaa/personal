@@ -3,7 +3,7 @@ import React from "react";
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div className="">
         <p>
           Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam
           alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret

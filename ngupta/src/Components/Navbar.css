@@ -30,13 +30,13 @@
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #EB655B;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #EB655B;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -56,11 +56,11 @@
 }
 
 .sidebar-nav>.sidebar-brand a {
-  color: #fff;
+  color: #EB655B;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
-  color: #fff;
+  color: #EB655B;
   background: none;
 }
 
@@ -78,7 +78,7 @@
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
+  color: #EB655B;
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
@@ -86,7 +86,7 @@
 
 .menu-toggle:focus,
 .menu-toggle:hover {
-  color: #fff;
+  color: #EB655B;
 }
 
 .menu-toggle:hover {
