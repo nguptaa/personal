@@ -2,7 +2,7 @@
   "name": "ngupta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ngupta.me",
+  "homepage": "https://ngupta.me/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
