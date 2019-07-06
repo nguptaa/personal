@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Workexp from "./Workexp";
 import Resume from "./Resume";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -14,8 +15,9 @@ class App extends React.Component {
         <Header />
         <About />
         <Projects />
-        <Workexp />
+        {/* <Workexp /> */}
         <Resume />
+        <Footer />
       </div>
     );
   }

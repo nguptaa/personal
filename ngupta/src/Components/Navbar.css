@@ -78,7 +78,7 @@
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #EB655B;
+  color: #fff;
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
@@ -86,7 +86,7 @@
 
 .menu-toggle:focus,
 .menu-toggle:hover {
-  color: #EB655B;
+  color: #fff;
 }
 
 .menu-toggle:hover {

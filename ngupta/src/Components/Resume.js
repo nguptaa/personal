@@ -1,6 +1,5 @@
 import React from "react";
 import "./Parallax.css";
-import "./Resume.css";
 
 class Projects extends React.Component {
   render() {

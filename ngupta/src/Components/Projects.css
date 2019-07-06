@@ -39,7 +39,7 @@
   height: 32px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #4285f4;
+  border: 3px solid #EB655B;
   position: absolute;
   top: 5.5%;
   right: -17.5px;
@@ -51,13 +51,13 @@
   font-size: 30px;
   color: #fff;
   border-radius: 0 50px 50px 0;
-  background: #4285f4;
+  background: #EB655B;
   text-align: center;
   position: relative;
 }
 .main-timeline .year:before {
   content: "";
-  border-top: 35px solid #4285f4;
+  border-top: 35px solid #EB655B;
   border-left: 35px solid transparent;
   position: absolute;
   bottom: -35px;
@@ -115,49 +115,49 @@
   margin: 0;
 }
 .main-timeline .timeline:nth-child(2n) .timeline-icon {
-  border-color: #f44;
+  border-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(2n) .year {
-  background: #f44;
+  background: #EB655B;
 }
 .main-timeline .timeline:nth-child(2n) .year:before {
-  border-top-color: #f44;
+  border-top-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(3n) .timeline-icon {
-  border-color: #00c851;
+  border-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(3n) .year {
-  background: #00c851;
+  background: #EB655B;
 }
 .main-timeline .timeline:nth-child(3n) .year:before {
-  border-top-color: #00c851;
+  border-top-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(4n) .timeline-icon {
-  border-color: #fb3;
+  border-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(4n) .year {
-  background: #fb3;
+  background: #EB655B;
 }
 .main-timeline .timeline:nth-child(4n) .year:before {
-  border-top-color: #fb3;
+  border-top-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(5n) .timeline-icon {
-  border-color: #848e96;
+  border-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(5n) .year {
-  background: #848e96;
+  background: #EB655B;
 }
 .main-timeline .timeline:nth-child(5n) .year:before {
-  border-top-color: #848e96;
+  border-top-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(6n) .timeline-icon {
-  border-color: #7e57c2;
+  border-color: #EB655B;
 }
 .main-timeline .timeline:nth-child(6n) .year {
-  background: #7e57c2;
+  background: #EB655B;
 }
 .main-timeline .timeline:nth-child(6n) .year:before {
-  border-top-color: #7e57c2;
+  border-top-color: #EB655B;
 }
 @media only screen and (max-width: 767px) {
   .main-timeline {

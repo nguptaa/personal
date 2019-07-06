@@ -7,8 +7,9 @@ class Projects extends React.Component {
       <footer class="footer text-center">
         <div class="container">
           <hr />
-          <p class="text-muted small mb-0">
-            Copyright &copy; Nikhil Gupta 2019
+          <p class="mb-0" style={{ color: "#EB655B" }}>
+            <i className="code icon" /> with <i className="heart icon" /> by{" "}
+            <i className="react icon" /> and Nikhil Gupta !
           </p>
         </div>
       </footer>
