@@ -5,20 +5,20 @@ import "./Projects.css";
 class Projects extends React.Component {
   render() {
     return (
-      <section class="projects">
-        <div class="parallax1 mb-5">
+      <section className="projects">
+        <div className="parallax1 mb-5">
           <span>Projects</span>
         </div>
-        <div class="ui container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="main-timeline">
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">Feb, 2019</span>
-                  <div class="timeline-content">
-                    <h3 class="title">Machine Learning</h3>
-                    <p class="description">
+        <div className="ui container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="main-timeline">
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">Feb, 2019</span>
+                  <div className="timeline-content">
+                    <h3 className="title">Machine Learning</h3>
+                    <p className="description">
                       Working On! Lorem ipsum dolor sit amet, consectetur
                       adipiscing elit, sed do eiusmod tempor incididunt ut
                       labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -27,12 +27,12 @@ class Projects extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">Jan, 2019</span>
-                  <div class="timeline-content">
-                    <h3 class="title">Twitter Sentiment Analysis</h3>
-                    <p class="description">
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">Jan, 2019</span>
+                  <div className="timeline-content">
+                    <h3 className="title">Twitter Sentiment Analysis</h3>
+                    <p className="description">
                       A python script written out of a curiosity to know the
                       reaction of peoples of my country Nepal on newly elected
                       PM. The script basically scrapes all the top tweets on PM
@@ -42,16 +42,16 @@ class Projects extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">Nov, 2018</span>
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">Nov, 2018</span>
                   <a
                     href="https://github.com/nguptaa/Movie-TV-Show-notifier"
                     target="_blank"
                   >
-                    <div class="timeline-content">
-                      <h3 class="title">Movie TV Show Notifier</h3>
-                      <p class="description">
+                    <div className="timeline-content">
+                      <h3 className="title">Movie TV Show Notifier</h3>
+                      <p className="description">
                         A python script to send a user an email that contains
                         information like release dates of the entered Movie/TV
                         Show. It's written in python 3. All you need is to run
@@ -61,16 +61,16 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">Sep, 2018</span>
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">Sep, 2018</span>
                   <a
                     href="https://github.com/nguptaa/Schedule-Bot"
                     target="_blank"
                   >
-                    <div class="timeline-content">
-                      <h3 class="title">Schedule Bot</h3>
-                      <p class="description">
+                    <div className="timeline-content">
+                      <h3 className="title">Schedule Bot</h3>
+                      <p className="description">
                         Schedule Bot is a messenger based NLP(Natural Language
                         Processing) bot which I made during my freshman year
                         when I was too annoyed with my paper timetable as I have
@@ -82,16 +82,16 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">July, 2018</span>
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">July, 2018</span>
                   <a
                     href="https://msclubnitrkl.000webhostapp.com/"
                     target="_blank"
                   >
-                    <div class="timeline-content">
-                      <h3 class="title">Microsoft Campus Club Website</h3>
-                      <p class="description">
+                    <div className="timeline-content">
+                      <h3 className="title">Microsoft Campus Club Website</h3>
+                      <p className="description">
                         Developed a fully responsive website(both frontend and
                         backend) for the club throughout the summer from scratch
                         completely on my own. Soon it will be live on NIT
@@ -102,16 +102,16 @@ class Projects extends React.Component {
                     </div>
                   </a>
                 </div>
-                <div class="timeline">
-                  <span class="timeline-icon" />
-                  <span class="year">April, 2018</span>
+                <div className="timeline">
+                  <span className="timeline-icon" />
+                  <span className="year">April, 2018</span>
                   <a
                     href="https://nikhilgupta.000webhostapp.com/"
                     target="_blank"
                   >
-                    <div class="timeline-content">
-                      <h3 class="title">NITRkl Voice</h3>
-                      <p class="description">
+                    <div className="timeline-content">
+                      <h3 className="title">NITRkl Voice</h3>
+                      <p className="description">
                         NITRkl voice is a content management system which I made
                         for my DBMS project under Prof. Korra Sathya Babu. I
                         coded both frontend and backend from scratch completely
