@@ -7,11 +7,11 @@ class Projects extends React.Component {
       <footer class="footer text-center">
         <div class="container">
           <hr />
-          <h5 class="mb-4" style={{ color: "#EB655B" }}>
+          <h5 class="mb-4" style={{ color: "#767676" }}>
             Lets stay connected !
           </h5>
-          <p class="mb-0" style={{ color: "#EB655B" }}>
-            <ul class="nav justify-content-center mb-4">
+          <p class="small mb-0" style={{ color: "#EB655B" }}>
+            <ul class="nav justify-content-center mb-5">
               <li class="nav-item social">
                 <a
                   class="nav-link"

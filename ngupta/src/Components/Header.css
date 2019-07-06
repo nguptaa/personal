@@ -14,10 +14,20 @@
   -o-background-size: cover;
   background-size: cover;
 }
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
+@media (min-width: 601px) {
+    .masthead {
+        height: 100vh;
+        padding-top: 11rem;
+        
+    }
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .masthead {
+        height: 100vh;
+        padding-top: 9rem;
+        
+    }
 }
 
 .name {
