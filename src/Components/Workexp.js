@@ -17,6 +17,7 @@ class Workexp extends React.Component {
                     <a
                       href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="timeline2-content"
                     >
                       <div className="timeline2-icon">
@@ -36,7 +37,10 @@ class Workexp extends React.Component {
                     </a>
                   </div>
                   <div className="timeline2">
-                    <a href="" className="timeline2-content">
+                    <a
+                      href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
+                      className="timeline2-content"
+                    >
                       <div className="timeline2-icon">
                         <i className="fa fa-users" />
                       </div>

@@ -27,7 +27,7 @@ class Navbar extends React.Component {
     return (
       <div>
         <a className="menu-toggle rounded" href="https://ngupta.me">
-          <i className="fas fa-bars"/>
+          <i className="fas fa-bars" />
         </a>
         <nav id="sidebar-wrapper">
           <ul className="sidebar-nav">
@@ -51,6 +51,7 @@ class Navbar extends React.Component {
                 className="js-scroll-trigger"
                 href="https://medium.com/@nguptaa/kwoc-kharagpur-winter-of-code-final-report-6d9d73ee7428"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Blog
               </a>

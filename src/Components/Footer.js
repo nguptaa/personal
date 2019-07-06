@@ -10,7 +10,7 @@ class Projects extends React.Component {
           <h5 className="mb-4" style={{ color: "#767676" }}>
             Lets stay connected !
           </h5>
-          <p className="small mb-0" style={{ color: "#EB655B" }}>
+          <div className="small mb-0" style={{ color: "#EB655B" }}>
             <ul className="nav justify-content-center mb-5">
               <li className="nav-item social">
                 <a
@@ -85,7 +85,7 @@ class Projects extends React.Component {
             </ul>
             <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
             <i className="fab fa-react " /> and Nikhil Gupta
-          </p>
+          </div>
         </div>
       </footer>
     );

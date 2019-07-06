@@ -48,6 +48,7 @@ class Projects extends React.Component {
                   <a
                     href="https://github.com/nguptaa/Movie-TV-Show-notifier"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="timeline-content">
                       <h3 className="title">Movie TV Show Notifier</h3>
@@ -67,6 +68,7 @@ class Projects extends React.Component {
                   <a
                     href="https://github.com/nguptaa/Schedule-Bot"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="timeline-content">
                       <h3 className="title">Schedule Bot</h3>
@@ -88,6 +90,7 @@ class Projects extends React.Component {
                   <a
                     href="https://msclubnitrkl.000webhostapp.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="timeline-content">
                       <h3 className="title">Microsoft Campus Club Website</h3>
@@ -108,6 +111,7 @@ class Projects extends React.Component {
                   <a
                     href="https://nikhilgupta.000webhostapp.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <div className="timeline-content">
                       <h3 className="title">NITRkl Voice</h3>

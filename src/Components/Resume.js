@@ -11,6 +11,7 @@ class Projects extends React.Component {
             <a
               href="https://drive.google.com/file/d/1va7HA7OCiaY9pm6TW4pCTmnNCGYtdF5P/view"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fas fa-eye" />
             </a>
