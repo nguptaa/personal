@@ -5,9 +5,9 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <section class="aboutme" id="about">
-          <div class="container text-center">
-            <i class="fas fa-user fa-4x" style={{ color: "#EB655B" }} />
+        <section className="aboutme" id="about">
+          <div className="container text-center">
+            <i className="fas fa-user fa-4x" style={{ color: "#EB655B" }} />
             <p>
               I am a Full Stack developer preferably Back End with industry
               experience
