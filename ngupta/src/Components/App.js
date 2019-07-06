@@ -4,6 +4,7 @@ import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
 import Workexp from "./Workexp";
+import Resume from "./Resume";
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <About />
         <Projects />
         <Workexp />
+        <Resume />
       </div>
     );
   }

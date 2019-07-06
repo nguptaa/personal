@@ -16,7 +16,7 @@ class Header extends React.Component {
                   Full Stack <b>Web Developer</b> and <b>ML</b> Enthusiast
                 </div>
               </h1>
-              <div class="ui horizontal list">
+              <div class="ui horizontal list" id="social">
                 <a
                   class="item"
                   href="https://www.facebook.com/nguptaa183"
@@ -24,7 +24,7 @@ class Header extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <i
-                    class="fab fa-facebook-f fa-2x"
+                    class="social fab fa-facebook-f fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Facebook"
@@ -36,7 +36,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fab fa-instagram fa-2x"
+                    class="social fab fa-instagram fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Instagram"
@@ -48,7 +48,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fab fa-twitter fa-2x"
+                    class="social fab fa-twitter fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Twitter"
@@ -60,7 +60,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fab fa-linkedin fa-2x"
+                    class="social fab fa-linkedin fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="LinkedIn"
@@ -68,7 +68,7 @@ class Header extends React.Component {
                 </a>
                 <a class="item" href="https://www.slack.com" target="_blank">
                   <i
-                    class="fab fa-slack fa-2x"
+                    class="social fab fa-slack fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Slack"
@@ -80,7 +80,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fab fa-github fa-2x"
+                    class="social fab fa-github fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Github"
@@ -92,7 +92,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fab fa-quora fa-2x"
+                    class="social fab fa-quora fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Quora"
@@ -104,7 +104,7 @@ class Header extends React.Component {
                   target="_blank"
                 >
                   <i
-                    class="fas fa-envelope fa-2x"
+                    class="social fas fa-envelope fa-2x"
                     data-toggle="tooltip"
                     data-placement="bottom"
                     title="Email"

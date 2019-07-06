@@ -1,5 +1,5 @@
 import React from "react";
-import './About.css';
+import "./About.css";
 
 class About extends React.Component {
   render() {
@@ -9,18 +9,13 @@ class About extends React.Component {
           <div class="container text-center">
             <i class="fas fa-user fa-4x" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor <br />
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam,
-              <br /> quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat.
-              <br />
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-              <br />
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              I am a Full Stack developer preferably Back End with industry
+              experience<br/> building websites and web applications. I have
+              professional<br/> experience working with nodeJS, ReactJS and DevOps. I
+              also have<br/> experience working with Python, C/C++, HTML, CSS,
+              JavaScript, PHP, VCS/Git, BootStrap.<br/> My field of interest includes
+              but not limited to Web Development, Microservices, Scalability,
+              Machine Learning/AI, Data Science.
             </p>
           </div>
         </section>

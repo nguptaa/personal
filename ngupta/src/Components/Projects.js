@@ -1,4 +1,6 @@
 import React from "react";
+import "./Parallax.css"
+import "./Projects.css";
 
 class Projects extends React.Component {
   render() {
@@ -7,7 +9,7 @@ class Projects extends React.Component {
         <div class="parallax1 mb-5">
           <span>Projects</span>
         </div>
-        <div class="container">
+        <div class="ui container">
           <div class="row">
             <div class="col-md-12">
               <div class="main-timeline">
