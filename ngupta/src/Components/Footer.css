@@ -12,6 +12,17 @@ hr {
   );
 }
 
+.social {
+  color: #767676;
+  margin: -4px;
+}
+
+.social:hover {
+  color: #EB655B;
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;

@@ -15,7 +15,7 @@ class App extends React.Component {
         <Header />
         <About />
         <Projects />
-        {/* <Workexp /> */}
+        <Workexp />
         <Resume />
         <Footer />
       </div>
