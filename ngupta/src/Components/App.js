@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
+import Projects from "./Projects";
+import Workexp from "./Workexp";
 
 class App extends React.Component {
   render() {
@@ -10,6 +12,8 @@ class App extends React.Component {
         <Navbar />
         <Header />
         <About />
+        <Projects />
+        <Workexp />
       </div>
     );
   }
