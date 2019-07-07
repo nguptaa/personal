@@ -18,13 +18,13 @@ class Header extends React.Component {
       hour
     });
     if (hour < 12) {
-      this.setState({ greeting: "Hey! Good Morning " });
+      this.setState({ greeting: "Hi! Good Morning " });
     } else if (hour >= 12 && hour < 17) {
-      this.setState({ greeting: "Hey! Good Afternoon " });
+      this.setState({ greeting: "Hi! Good Afternoon " });
     } else if (hour >= 17 && hour < 20) {
-      this.setState({ greeting: "Hey! Good Evening " });
+      this.setState({ greeting: "Hi! Good Evening " });
     } else {
-      this.setState({ greeting: "Hey! Good Night " });
+      this.setState({ greeting: "Hi! Good Night " });
     }
   };
 
