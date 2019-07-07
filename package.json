@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ngupta.me/",
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "react": "^16.8.6",
