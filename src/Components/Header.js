@@ -48,7 +48,7 @@ class Header extends React.Component {
             <Grid item xs={6} />
             <Grid item xs={6}>
               <div className={useStyles.root}>
-                <Typography className="name" variant="h3" gutterBottom>
+                <Typography className="name" variant="h4" gutterBottom>
                   {greeting}
                   <br />
                   I'm Nikhil
@@ -60,10 +60,14 @@ class Header extends React.Component {
                     width="40px"
                   />
                 </Typography>
+                <Typography
+                  className="subname"
+                  variant="subtitle1"
+                  gutterBottom
+                >
+                  Full Stack <b>Web Developer</b> and <b>ML</b> Enthusiast
+                </Typography>
               </div>
-              <h6 className="subname">
-                Full Stack <b>Web Developer</b> and <b>ML</b> Enthusiast
-              </h6>
             </Grid>
           </Grid>
         </Container>
