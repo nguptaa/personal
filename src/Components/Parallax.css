@@ -1,6 +1,6 @@
 .parallax1 {
   background-image: url(../Static/projects-main.jpg);
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -16,7 +16,7 @@
 }
 .parallax2 {
   background-image: url(../Static/work-main.jpg);
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -32,7 +32,7 @@
 }
 .parallax3 {
   background-image: url(../Static/resume-main.jpg);
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;

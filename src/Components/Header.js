@@ -55,7 +55,6 @@ class Header extends React.Component {
                   <img
                     src={require("../Static/peace.png")}
                     alt=""
-                    className="mb-3"
                     height="40px"
                     width="40px"
                   />

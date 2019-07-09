@@ -12,22 +12,44 @@ hr {
   );
 }
 
+.horizontal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center !important;
+}
+
+.horizontal li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.horizontal li a{
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
 .social {
   color: #767676;
   margin: -1px;
 }
+
 @media (min-width: 601px) {
-    .social {
-  color: #767676;
-  margin: -1px;
-}
+  .social {
+    color: #767676;
+    margin: -1px;
+  }
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
-    .social {
-  color: #767676;
-  margin: -5px;
-}
+  .social {
+    color: #767676;
+    margin: -5px;
+  }
 }
 
 .social:hover {
