@@ -55,8 +55,7 @@ class Header extends React.Component {
                   <img
                     src={require("../Static/peace.png")}
                     alt=""
-                    height="40px"
-                    width="40px"
+                    className="img-fluid"
                   />
                 </Typography>
                 <Typography

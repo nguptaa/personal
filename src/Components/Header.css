@@ -1,7 +1,7 @@
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: flex!important;
+  display: flex !important;
   width: 100%;
   height: auto;
   padding-top: 8rem;
@@ -14,21 +14,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
-@media (min-width: 601px) {
-    .masthead {
-        height: 100vh;
-        padding-top: 11rem;
-        
-    }
-}
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-    .masthead {
-        height: 100vh;
-        padding-top: 9rem;
-        
-    }
-}
 
 .name {
   color: #eb655b;
@@ -37,4 +22,35 @@
 .subname {
   color: #767676;
 }
+
+@media (min-width: 601px) {
+  .masthead {
+    height: 100vh;
+    padding-top: 11rem;
+  }
+  .name {
+    font-size: 2.25rem !important;
+  }
+
+  .subname {
+    font-size: 1.25rem !important;
+
+  }
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .masthead {
+    height: 100vh;
+    padding-top: 9rem;
+  }
+  .name {
+    font-size: 1.5rem !important;
+  }
+
+  .subname {
+    font-size: 1rem !important;
+
+  }
+}
+
 

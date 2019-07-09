@@ -2,6 +2,8 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding: 0px;
+    overflow-x: hidden; 
   font-family: "Roboto", sans-serif;
 }
 
@@ -37,6 +39,11 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .text-center{

@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
   },
   media: {
-    height: 200
+    height: 150
   },
   primary: {
     color: "#1976d2"
@@ -105,7 +105,7 @@ export default function Workexp() {
                     </Typography>
                   </CardContent>
                 </CardActionArea>
-                <CardActions>
+                <CardActions style={{ textAlign: "center" }}>
                   <a
                     href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
                     target="_blank"
