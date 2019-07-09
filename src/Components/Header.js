@@ -2,14 +2,15 @@ import React from "react";
 import "./Header.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
   root: {
-    flexGrow: 1
+    width: "100%",
+    maxWidth: 500
   }
-}));
-
-const classes = useStyles();
+});
 
 class Header extends React.Component {
   state = {
@@ -42,28 +43,30 @@ class Header extends React.Component {
     const { greeting } = this.state;
     return (
       <header className="masthead">
-        <div className="container text-right my-auto">
-          <div className="row">
-            <div className="col" />
-            <div className="col">
-              <h3 className="name">
-                {greeting}
-                <br />
-                I'm Nikhil
-                <img
-                  src={require("../Static/peace.png")}
-                  alt=""
-                  className="mb-3"
-                  height="40px"
-                  width="40px"
-                />
-              </h3>
+        <Container maxWidth="lg" className="text-right my-auto">
+          <Grid container spacing={3}>
+            <Grid item xs={6} />
+            <Grid item xs={6}>
+              <div className={useStyles.root}>
+                <Typography className="name" variant="h3" gutterBottom>
+                  {greeting}
+                  <br />
+                  I'm Nikhil
+                  <img
+                    src={require("../Static/peace.png")}
+                    alt=""
+                    className="mb-3"
+                    height="40px"
+                    width="40px"
+                  />
+                </Typography>
+              </div>
               <h6 className="subname">
                 Full Stack <b>Web Developer</b> and <b>ML</b> Enthusiast
               </h6>
-            </div>
-          </div>
-        </div>
+            </Grid>
+          </Grid>
+        </Container>
       </header>
     );
   }
