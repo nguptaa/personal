@@ -17,11 +17,14 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     maxWidth: "100%",
-    boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
-
+    boxShadow:
+      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
   },
   media: {
     height: 200
+  },
+  primary: {
+    color: "#1976d2"
   }
 }));
 
@@ -67,7 +70,11 @@ export default function Workexp() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button size="small" color="primary">
+                    <Button
+                      size="small"
+                      style={{ color: "#1976d2" }}
+                      variant="text"
+                    >
                       Share
                     </Button>
                   </a>
@@ -104,7 +111,11 @@ export default function Workexp() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button size="small" color="primary">
+                    <Button
+                      size="small"
+                      style={{ color: "#1976d2" }}
+                      variant="text"
+                    >
                       Share
                     </Button>
                   </a>
