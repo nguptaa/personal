@@ -1,7 +1,7 @@
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: table;
+  display: flex!important;
   width: 100%;
   height: auto;
   padding-top: 8rem;
@@ -32,8 +32,10 @@
 
 .name {
   color: #eb655b;
+  font-size: 1.75rem;
 }
 .subname {
   color: #767676;
+  font-size: 1rem;
 }
 

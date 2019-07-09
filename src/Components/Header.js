@@ -1,5 +1,15 @@
 import React from "react";
 import "./Header.css";
+import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1
+  }
+}));
+
+const classes = useStyles();
 
 class Header extends React.Component {
   state = {
@@ -31,14 +41,14 @@ class Header extends React.Component {
   render() {
     const { greeting } = this.state;
     return (
-      <header className="masthead d-flex">
+      <header className="masthead">
         <div className="container text-right my-auto">
           <div className="row">
             <div className="col" />
             <div className="col">
               <h3 className="name">
                 {greeting}
-                <br/>
+                <br />
                 I'm Nikhil
                 <img
                   src={require("../Static/peace.png")}

@@ -1,10 +1,9 @@
 .parallax1 {
   background-image: url(../Static/projects-main.jpg);
   filter: grayscale(100%);
-  min-height: 250px;
   text-align: center;
-  line-height: 250px;
-  vertical-align: middle;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +17,6 @@
 .parallax2 {
   background-image: url(../Static/work-main.jpg);
   filter: grayscale(100%);
-  min-height: 250px;
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -35,7 +33,6 @@
 .parallax3 {
   background-image: url(../Static/resume-main.jpg);
   filter: grayscale(100%);
-  min-height: 300px;
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
