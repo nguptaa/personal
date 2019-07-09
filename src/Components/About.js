@@ -1,4 +1,6 @@
 import React from "react";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
 import "./About.css";
 
 class About extends React.Component {
@@ -6,7 +8,7 @@ class About extends React.Component {
     return (
       <div>
         <section className="aboutme" id="about">
-          <div className="container text-center">
+        <Container>
             <i className="fas fa-user fa-4x" style={{ color: "#EB655B" }} />
             <p>
               I am a Full Stack developer preferably Back End with industry
@@ -20,7 +22,7 @@ class About extends React.Component {
               Development, Microservices, Scalability, Machine Learning/AI, Data
               Science.
             </p>
-          </div>
+          </Container>
         </section>
       </div>
     );
