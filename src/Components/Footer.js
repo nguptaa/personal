@@ -1,5 +1,13 @@
 import React from "react";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
 import "./Footer.css";
+
+const flexContainer = {
+  display: "flex",
+  flexDirection: "row",
+  padding: 0
+};
 
 class Projects extends React.Component {
   render() {
