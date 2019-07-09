@@ -1,69 +1,94 @@
 import React from "react";
-import "./Workexp.css";
+import { makeStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
 
-class Workexp extends React.Component {
-  render() {
-    return (
-      <div>
-        <section className="work-experience">
-          <div className="parallax2 mb-5">
-            <span>Work Experience</span>
-          </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="main-timeline2">
-                  <div className="timeline2">
-                    <a
-                      href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="timeline2-content"
-                    >
-                      <div className="timeline2-icon">
-                        <i className="fa fa-globe" />
-                      </div>
-                      <div className="inner-content">
-                        <h3 className="title">
-                          Winter Intern at KWoC, IIT Kharagpur
-                        </h3>
-                        <p className="description">
-                          Contributed in developing student information portal
-                          of National Institute of Technology, Durgapur. Also
-                          added continuous integration and codecoverage in the
-                          github repository for better integration.
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="timeline2">
-                    <a
-                      href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
-                      className="timeline2-content"
-                    >
-                      <div className="timeline2-icon">
-                        <i className="fa fa-users" />
-                      </div>
-                      <div className="inner-content">
-                        <h3 className="title">
-                          Web Application Developer, Propelld Tech
-                        </h3>
-                        <p className="description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Ad adipisci culpa dolore explicabo fuga pariatur
-                          gjkfdgj quis reprehenderit tenetur vel!
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    );
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+    marginBottom: "3rem !important"
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center",
+    color: theme.palette.text.secondary
+  },
+  card: {
+    maxWidth: 345
   }
-}
+}));
 
-export default Workexp;
+export default function Workexp() {
+  const classes = useStyles();
+
+  return (
+    <Container maxWidth="md">
+      <div className={classes.root}>
+        <Grid container spacing={3}>
+          <Grid item xs={6}>
+            <Card className={classes.card}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Propelld"
+                  height="140"
+                  image={require("../Static/propelld.jpg")}
+                  title="Propelld"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="textSecondary"
+                    component="p"
+                  >
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item xs={6}>
+            <Card className={classes.card}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Propelld"
+                  height="140"
+                  image={require("../Static/propelld.jpg")}
+                  title="Propelld"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Lizard
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="textSecondary"
+                    component="p"
+                  >
+                    Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+        </Grid>
+      </div>
+    </Container>
+  );
+}
