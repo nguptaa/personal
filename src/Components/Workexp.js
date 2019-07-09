@@ -75,7 +75,7 @@ export default function Workexp() {
                       style={{ color: "#1976d2" }}
                       variant="text"
                     >
-                      Share
+                      Certificate
                     </Button>
                   </a>
                 </CardActions>
@@ -116,7 +116,7 @@ export default function Workexp() {
                       style={{ color: "#1976d2" }}
                       variant="text"
                     >
-                      Share
+                      Certificate
                     </Button>
                   </a>
                 </CardActions>
