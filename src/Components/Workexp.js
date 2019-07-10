@@ -105,17 +105,13 @@ export default function Workexp() {
                     </Typography>
                   </CardContent>
                 </CardActionArea>
-                <CardActions style={{ textAlign: "center" }}>
+                <CardActions>
                   <a
                     href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button
-                      size="small"
-                      style={{ color: "#1976d2" }}
-                      variant="text"
-                    >
+                    <Button size="small" style={{ color: "#1976d2" }}>
                       Certificate
                     </Button>
                   </a>
