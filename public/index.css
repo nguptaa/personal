@@ -3,7 +3,8 @@ html {
   height: 100%;
   margin: 0;
   padding: 0px;
-    overflow-x: hidden; 
+  background-color: #FEFEFE;
+  overflow-x: hidden; 
   font-family: "Roboto", sans-serif;
 }
 

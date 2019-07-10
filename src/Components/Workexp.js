@@ -17,14 +17,17 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     maxWidth: "100%",
+    height: "100%",
+    border: "none",
+    borderRadius: ".625rem",
     boxShadow:
       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
   },
   media: {
     height: 150
   },
-  primary: {
-    color: "#1976d2"
+  content: {
+    padding: "1.875rem"
   }
 }));
 
@@ -48,7 +51,7 @@ export default function Workexp() {
                     title="kwoc"
                     href="https:google.com/"
                   />
-                  <CardContent>
+                  <CardContent className={classes.content}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Winter Open Source Development Intern, KWoC-IIT Kharagpur
                     </Typography>
@@ -89,7 +92,7 @@ export default function Workexp() {
                     image={require("../Static/propelld.jpg")}
                     title="Propelld"
                   />
-                  <CardContent>
+                  <CardContent className={classes.content}>
                     <Typography gutterBottom variant="h5" component="h2">
                       Web Developer Summer Intern, Propelld
                     </Typography>
