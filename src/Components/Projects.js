@@ -49,47 +49,70 @@ export default function Projects() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="Nov, 2018"
           iconStyle={{ background: "#00C851", color: "#fff" }}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">
+            Movie TV Show Notifier
+          </h3>
           {/* <h4 className="vertical-timeline-element-subtitle">
             Los Angeles, CA
           </h4> */}
-          <p>User Experience, Visual Design</p>
+          <p>
+            A python script to send a user an email that contains information
+            like release dates of the entered Movie/TV Show. It's written in
+            python 3. All you need is to run the script, provide your email
+            address and list of Movie/TV Shows you want to get notified.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="Sep, 2018"
           iconStyle={{ background: "#ffbb33", color: "#fff" }}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">Schedule Bot </h3>
           {/* <h4 className="vertical-timeline-element-subtitle">
             San Francisco, CA
           </h4> */}
-          <p>User Experience, Visual Design</p>
+          <p>
+            Schedule Bot is a messenger based NLP(Natural Language Processing)
+            bot which I made during my freshman year when I was too annoyed with
+            my paper timetable as I have to see it every other hour. This bot
+            helps a person by letting them know their particular subject at a
+            particular time when provided with respective section and lab group.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          date="July, 2018"
           iconStyle={{ background: "#848E96", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
+            Microsoft Campus Club Website
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4> */}
+          <p>
+            Developed a fully responsive website(both frontend and backend) for
+            the club throughout the summer from scratch completely on my own.
+            Soon it will be live on NIT Rourkela subdomain. HTML, CSS,
+            JavaScript are used in the frontend part, PHP in the backend and
+            MySQL in the database.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="April, 2018"
           iconStyle={{ background: "#7E57C2", color: "#fff" }}
         >
-          <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">NITRkl Voice</h3>
+          {/* <h4 className="vertical-timeline-element-subtitle">Certification</h4> */}
+          <p>
+            NITRkl voice is a content management system which I made for my DBMS
+            project under Prof. Korra Sathya Babu. I coded both frontend and
+            backend from scratch completely on my own. HTML, CSS, JavaScript are
+            used in the frontend part, PHP in the backend and MySQL in the
+            database.
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
