@@ -4,6 +4,8 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBrain } from "@fortawesome/free-solid-svg-icons";
 import "./Projects.css";
 
 export default function Projects() {
@@ -18,7 +20,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Feb, 2019"
           iconStyle={{ background: "#4285F4", color: "#fff" }}
-          icon={ "fa fa-user" }
+          icon={<FontAwesomeIcon icon={faBrain} size="lg" />}
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
@@ -33,6 +35,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Jan, 2019"
           iconStyle={{ background: "#ff4444", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faBrain} size="lg" />}
         >
           <h3 className="vertical-timeline-element-title">
             Twitter Sentiment Analysis
