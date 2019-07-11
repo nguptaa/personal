@@ -5,7 +5,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBrain } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBrain,
+  faGlobe,
+  faCode,
+  faRobot
+} from "@fortawesome/free-solid-svg-icons";
 import "./Projects.css";
 
 export default function Projects() {
@@ -20,7 +25,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Feb, 2019"
           iconStyle={{ background: "#4285F4", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faBrain} size="lg" />}
+          icon={<FontAwesomeIcon icon={faBrain} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
@@ -35,7 +40,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Jan, 2019"
           iconStyle={{ background: "#ff4444", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faBrain} size="lg" />}
+          icon={<FontAwesomeIcon icon={faBrain} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
             Twitter Sentiment Analysis
@@ -55,6 +60,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Nov, 2018"
           iconStyle={{ background: "#00C851", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faCode} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
             Movie TV Show Notifier
@@ -73,6 +79,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Sep, 2018"
           iconStyle={{ background: "#ffbb33", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faRobot} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Schedule Bot </h3>
           {/* <h4 className="vertical-timeline-element-subtitle">
@@ -90,6 +97,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="July, 2018"
           iconStyle={{ background: "#848E96", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faGlobe} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
             Microsoft Campus Club Website
@@ -107,6 +115,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="April, 2018"
           iconStyle={{ background: "#7E57C2", color: "#fff" }}
+          icon={<FontAwesomeIcon icon={faGlobe} size="" />}
         >
           <h3 className="vertical-timeline-element-title">NITRkl Voice</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">Certification</h4> */}
