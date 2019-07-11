@@ -1,19 +1,19 @@
 .vertical-timeline::before {
-  background: #e3e3e3 !important;
+  background: #E3E3E3 !important;
 }
 
 .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #e3e3e3, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 0 4px #E3E3E3, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
 }
 
 .vertical-timeline-element-content {
-  background: #e3e3e3 !important;
+  background: #E3E3E3 !important;
 }
 
 @media only screen and (min-width: 1170px) {
   .vertical-timeline--two-columns .vertical-timeline-element-content::before {
-    border-left-color: #e3e3e3;
+    border-left-color: #E3E3E3;
   }
 }
 
@@ -24,10 +24,22 @@
   .vertical-timeline--two-columns
     .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
     .vertical-timeline-element-content::before {
-    border-right-color: #e3e3e3;
+    border-right-color: #E3E3E3;
   }
 }
 
 .vertical-timeline-element-content::before {
-    border-right: 7px solid #E3E3E3;
+  border-right: 7px solid #E3E3E3;
+}
+
+.vertical-timeline-element p {
+  text-align: justify;
+  font-size: 15px;
+  color: #6b6969;
+}
+
+.vertical-timeline-element-title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #504f54;
 }

@@ -15,13 +15,13 @@ export default function Projects() {
 
       <VerticalTimeline>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="Feb, 2019"
           iconStyle={{ background: "#4285F4", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
-          <p>
+          <p className="description">
             Working On! Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -29,7 +29,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="Jan, 2019"
           iconStyle={{ background: "#ff4444", color: "#fff" }}
         >
@@ -48,7 +48,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="Nov, 2018"
           iconStyle={{ background: "#00C851", color: "#fff" }}
         >
@@ -66,7 +66,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="Sep, 2018"
           iconStyle={{ background: "#ffbb33", color: "#fff" }}
         >
@@ -83,7 +83,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="vertical-timeline-element"
           date="July, 2018"
           iconStyle={{ background: "#848E96", color: "#fff" }}
         >
@@ -100,7 +100,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="vertical-timeline-element"
           date="April, 2018"
           iconStyle={{ background: "#7E57C2", color: "#fff" }}
         >
