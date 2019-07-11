@@ -18,6 +18,7 @@ export default function Projects() {
           className="vertical-timeline-element"
           date="Feb, 2019"
           iconStyle={{ background: "#4285F4", color: "#fff" }}
+          icon={ "fa fa-user" }
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
