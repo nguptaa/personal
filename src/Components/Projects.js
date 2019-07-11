@@ -16,30 +16,35 @@ export default function Projects() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2011 - present"
+          date="Feb, 2019"
           iconStyle={{ background: "#4285F4", color: "#fff" }}
         >
-            <h3 className="vertical-timeline-element-title">
-              Creative Director
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
-            </p>
+          <h3 className="vertical-timeline-element-title">Machine Learning</h3>
+          {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
+          <p>
+            Working On! Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="Jan, 2019"
           iconStyle={{ background: "#ff4444", color: "#fff" }}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h3 className="vertical-timeline-element-title">
+            Twitter Sentiment Analysis
+          </h3>
+          {/* <h4 className="vertical-timeline-element-subtitle">
             San Francisco, CA
-          </h4>
+          </h4> */}
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            A python script written out of a curiosity to know the reaction of
+            peoples of my country Nepal on newly elected PM. The script
+            basically scrapes all the top tweets on PM topic and based on the
+            user response it performs sentiment analysis on it and determines
+            whether the opinion is positive, negative or neutral.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -48,9 +53,9 @@ export default function Projects() {
           iconStyle={{ background: "#00C851", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          {/* <h4 className="vertical-timeline-element-subtitle">
             Los Angeles, CA
-          </h4>
+          </h4> */}
           <p>User Experience, Visual Design</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -59,9 +64,9 @@ export default function Projects() {
           iconStyle={{ background: "#ffbb33", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          {/* <h4 className="vertical-timeline-element-subtitle">
             San Francisco, CA
-          </h4>
+          </h4> */}
           <p>User Experience, Visual Design</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
