@@ -24,16 +24,10 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fab fa-facebook-f fa-2x" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/aayannikhil/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="social fab fa-instagram fa-2x" />
+                <i
+                  className="social fab fa-facebook-f fa-2x"
+                  style={{ color: "#3b5999" }}
+                />
               </a>
             </li>
             <li>
@@ -42,7 +36,22 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fab fa-twitter fa-2x" />
+                <i
+                  className="social fab fa-twitter fa-2x"
+                  style={{ color: "#55acee" }}
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/aayannikhil/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  className="social fab fa-instagram fa-2x"
+                  style={{ color: "#cd486b" }}
+                />
               </a>
             </li>
             <li>
@@ -51,7 +60,10 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fab fa-linkedin fa-2x" />
+                <i
+                  className="social fab fa-linkedin fa-2x"
+                  style={{ color: "#0077B5" }}
+                />
               </a>
             </li>
             <li>
@@ -60,7 +72,10 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fab fa-github fa-2x" />
+                <i
+                  className="social fab fa-github fa-2x"
+                  style={{ color: "#333" }}
+                />
               </a>
             </li>
             <li>
@@ -69,7 +84,10 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fab fa-quora fa-2x" />
+                <i
+                  className="social fab fa-quora fa-2x"
+                  style={{ color: "#b92b27" }}
+                />
               </a>
             </li>
             <li>
@@ -78,7 +96,10 @@ class Projects extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="social fas fa-envelope fa-2x" />
+                <i
+                  className="social fas fa-envelope fa-2x"
+                  style={{ color: "#FF8800" }}
+                />
               </a>
             </li>
           </ul>

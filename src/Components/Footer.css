@@ -53,7 +53,6 @@ hr {
 }
 
 .social:hover {
-  color: #eb655b;
   transform: scale(1.3);
   transition: transform 0.2s;
 }
