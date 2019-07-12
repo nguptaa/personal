@@ -9,10 +9,10 @@ class About extends React.Component {
       <div>
         <section className="aboutme mb-5" id="about">
           <Container>
-            <i className="fas fa-user fa-4x"/>
+            <i className="fas fa-user fa-4x" style={{ color: "#EB655B" }} />
             <Typography variant="body1" gutterBottom>
-              I am a Full Stack developer preferably Back End with
-              industry experience
+              I am a Full Stack developer preferably Back End with industry
+              experience
               <br /> building websites and web applications. I have professional
               <br /> experience working with nodeJS, ReactJS and DevOps. I also
               have
