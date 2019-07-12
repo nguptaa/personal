@@ -9,7 +9,7 @@ class About extends React.Component {
       <div>
         <section className="aboutme mb-5" id="about">
           <Container>
-            <i className="fas fa-user fa-4x" style={{ color: "#EB655B" }} />
+            <i className="fas fa-user fa-4x"/>
             <Typography variant="body1" gutterBottom>
               I am a Full Stack developer preferably Back End with
               industry experience

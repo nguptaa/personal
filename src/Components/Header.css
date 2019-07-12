@@ -7,6 +7,7 @@
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: url("../Static/main.jpg");
+  /* background: #fefefe; */
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -34,7 +35,6 @@
 
   .subname {
     font-size: 1.25rem !important;
-
   }
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -49,8 +49,5 @@
 
   .subname {
     font-size: 1rem !important;
-
   }
 }
-
-

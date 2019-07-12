@@ -30,13 +30,13 @@
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #EB655B;
+  color: #fff;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #EB655B;
+  color: #fff;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -56,11 +56,11 @@
 }
 
 .sidebar-nav>.sidebar-brand a {
-  color: #EB655B;
+  color: #fff;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
-  color: #EB655B;
+  color: #fff;
   background: none;
 }
 
