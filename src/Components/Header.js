@@ -63,7 +63,7 @@ class Header extends React.Component {
                   variant="subtitle1"
                   gutterBottom
                 >
-                  Full Stack <b>Web Developer</b> and <b>ML</b> Enthusiast
+                  Full Stack Web Developer and ML Enthusiast
                 </Typography>
               </div>
             </Grid>
