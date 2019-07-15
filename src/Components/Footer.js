@@ -32,18 +32,6 @@ class Projects extends React.Component {
             </li>
             <li>
               <a
-                href="https://twitter.com/ngupta183"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  className="social fab fa-twitter fa-2x"
-                  style={{ color: "#55acee" }}
-                />
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://www.instagram.com/aayannikhil/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,6 +39,18 @@ class Projects extends React.Component {
                 <i
                   className="social fab fa-instagram fa-2x"
                   style={{ color: "#cd486b" }}
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/ngupta183"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  className="social fab fa-twitter fa-2x"
+                  style={{ color: "#55acee" }}
                 />
               </a>
             </li>
