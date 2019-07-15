@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
+import $ from "jquery";
 
 const useStyles = makeStyles({
   root: {
@@ -55,7 +56,7 @@ class Header extends React.Component {
                   <img
                     src={require("../Static/peace.png")}
                     alt=""
-                    className="img-fluid"
+                    className="img-peace"
                   />
                 </Typography>
                 <Typography
