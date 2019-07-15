@@ -18,7 +18,6 @@ export default function Projects() {
     <section className="projects">
       <div class="parallax1 mb-5">
         <span>Projects</span>
-      </div>
 
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -128,6 +127,7 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      </div>
     </section>
   );
 }

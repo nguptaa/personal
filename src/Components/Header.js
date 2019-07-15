@@ -44,7 +44,7 @@ class Header extends React.Component {
     return (
       <header className="masthead">
         <Container maxWidth="lg">
-          <Grid container spacing={5} className="vertical-middle-content ">
+          <Grid container spacing={5} className="vertical-middle-content">
             <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
               <div className={useStyles.root}>
                 <img

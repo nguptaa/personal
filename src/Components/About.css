@@ -1,9 +1,23 @@
-.aboutme{
-  text-align: center;
+.aboutme {
+  text-align: justify;
   color: #767676;
+  margin-top: 3rem;
 }
-.aboutme i {
-  color: #333333;
-  margin-top: 3rem !important;
-  padding-bottom: 2rem;
+
+.about {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+  .xs-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about {
+    margin: 0 20px 0 20px !important;
+  }
+.aboutme {
+  text-align: center !important;
+}
+
 }
