@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import $ from "jquery";
 
 const useStyles = makeStyles({
   root: {
@@ -44,10 +43,18 @@ class Header extends React.Component {
     const { greeting } = this.state;
     return (
       <header className="masthead">
-        <Container maxWidth="lg" className="text-right my-auto">
-          <Grid container spacing={3}>
-            <Grid item xs={6} />
-            <Grid item xs={6}>
+        <Container maxWidth="lg">
+          <Grid container spacing={5} className="vertical-middle-content ">
+            <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
+              <div className={useStyles.root}>
+                <img
+                  src={require("../Static/bgavatar.png")}
+                  alt=""
+                  className="img-fluid avatar"
+                />
+              </div>
+            </Grid>
+            <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
               <div className={useStyles.root}>
                 <Typography className="name" variant="h4" gutterBottom>
                   {greeting}
