@@ -8,7 +8,9 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     width: "100%",
-    maxWidth: 500
+    maxWidth: 500,
+    marginTop: "auto !important",
+    marginBottom: "auto !important"
   }
 });
 
@@ -45,16 +47,16 @@ class Header extends React.Component {
       <section className="masthead">
         <Container maxWidth="lg">
           <Grid container spacing={5} className="vertical-middle-content">
-            <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
+            <Grid item sm={12} className="my-auto text-center">
               <div className={useStyles.root}>
                 <img
-                  src={require("../Static/bgavatar.png")}
+                  src={require("../Static/avatar.jpeg")}
                   alt=""
-                  className="img-fluid avatar"
+                  className="avatar"
                 />
               </div>
             </Grid>
-            <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
+            <Grid item sm={12} className="my-auto text-center">
               <div className={useStyles.root}>
                 <Typography className="name" variant="h4" gutterBottom>
                   {greeting}

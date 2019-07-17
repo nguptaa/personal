@@ -6,11 +6,11 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  /* background: url('../Static/abs.jpg'); */
+  /* background: url('../Static/bg.jpeg'); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background:#100E17;
+  background: #100e17;
 }
 
 
@@ -35,6 +35,14 @@
 .subname {
   color: #767676;
   text-align: center !important;
+}
+
+.avatar{
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+
 }
 
 @media (min-width: 990px) {
