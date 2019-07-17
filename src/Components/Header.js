@@ -42,8 +42,7 @@ class Header extends React.Component {
   render() {
     const { greeting } = this.state;
     return (
-      <header className="">
-      <div className="masthead"></div>
+      <section className="masthead">
         <Container maxWidth="lg">
           <Grid container spacing={5} className="vertical-middle-content">
             <Grid item sm={12} md={12} lg={6} className="my-auto text-center">
@@ -78,7 +77,7 @@ class Header extends React.Component {
             </Grid>
           </Grid>
         </Container>
-      </header>
+      </section>
     );
   }
 }
