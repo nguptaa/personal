@@ -8,6 +8,17 @@
   text-align: justify;
 }
 
+.MuiTypography-body1 {
+  font-family: "Montserrat", sans-serif !important;
+  line-height: 1.85 !important;
+}
+
+.one{
+  position: fixed;
+    left: 0;
+}
+
+
 @media only screen and (max-width: 800px) {
   .xs-column-reverse {
     display: flex;
@@ -16,8 +27,7 @@
   .about {
     margin: 0 20px 0 20px !important;
   }
-.aboutme {
-  text-align: center !important;
-}
-
+  .aboutme {
+    text-align: center !important;
+  }
 }

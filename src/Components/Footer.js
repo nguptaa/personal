@@ -103,7 +103,7 @@ class Projects extends React.Component {
               </a>
             </li>
           </ul>
-          <Typography variant="body1" style={{ color: "#EB655B" }} gutterBottom>
+          <Typography variant="body1" style={{ color: "#f44336" }} gutterBottom>
             <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
             <i className="fab fa-react " /> and Nikhil Gupta
           </Typography>

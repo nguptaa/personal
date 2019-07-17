@@ -6,10 +6,11 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
+    background: url('../Static/abs.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #100e17 !important;
+  /* background-color: #fff !important; */
 }
 
 .vertical-middle-content {
@@ -26,11 +27,13 @@
 }
 
 .name {
-  color: #eb655b;
+  color: #F44336;
+  text-align: center !important;
 }
 
 .subname {
   color: #767676;
+  text-align: center !important;
 }
 
 @media (min-width: 990px) {
@@ -40,12 +43,10 @@
   }
   .name {
     font-size: 2.25rem !important;
-    text-align: center !important;
   }
 
   .subname {
     font-size: 1.25rem !important;
-    text-align: center !important;
   }
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -56,11 +57,9 @@
   }
   .name {
     font-size: 1.5rem !important;
-    text-align: center !important;
   }
 
   .subname {
     font-size: 1rem !important;
-    text-align: center !important;
   }
 }

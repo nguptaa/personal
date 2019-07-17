@@ -18,12 +18,13 @@ export default function Projects() {
     <section className="projects">
       <div class="parallax1 mb-5">
         <span>Projects</span>
+        </div>
 
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="Feb, 2019"
-          iconStyle={{ background: "#4285F4", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faBrain} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
@@ -38,7 +39,7 @@ export default function Projects() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="Jan, 2019"
-          iconStyle={{ background: "#ff4444", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faBrain} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -58,7 +59,7 @@ export default function Projects() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="Nov, 2018"
-          iconStyle={{ background: "#00C851", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faCode} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -77,7 +78,7 @@ export default function Projects() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="Sep, 2018"
-          iconStyle={{ background: "#ffbb33", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faRobot} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Schedule Bot </h3>
@@ -95,7 +96,7 @@ export default function Projects() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="July, 2018"
-          iconStyle={{ background: "#848E96", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faGlobe} size="" />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -113,7 +114,7 @@ export default function Projects() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="April, 2018"
-          iconStyle={{ background: "#7E57C2", color: "#fff" }}
+          iconStyle={{ background: "#F44336", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faGlobe} size="" />}
         >
           <h3 className="vertical-timeline-element-title">NITRkl Voice</h3>
@@ -127,7 +128,6 @@ export default function Projects() {
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-      </div>
     </section>
   );
 }

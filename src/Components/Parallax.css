@@ -15,7 +15,7 @@
   color: #fff;
 }
 .parallax2 {
-  background-image: url(../Static/work-main.jpg);
+  background-image: url(../Static/work.png);
   /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
@@ -31,7 +31,7 @@
   color: #fff;
 }
 .parallax3 {
-  background-image: url(../Static/resume-main.jpg);
+  background-image: url(../Static/resume.png);
   /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
