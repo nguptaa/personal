@@ -35,7 +35,7 @@ class Header extends React.Component {
       <section className="masthead d-flex">
         <div className="container text-center my-auto">
             <img
-              src={require("../Static/avatar.jpeg")}
+              src={require("../Static/me.jpeg")}
               alt=""
               className="avatar"
             />
