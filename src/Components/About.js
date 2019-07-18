@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import "./About.css";
 
@@ -18,11 +17,11 @@ class About extends React.Component {
       <section className="aboutme mb-5">
         <div className="container">
           <Grid container spacing={2} className="xs-column-reverse">
-            <img
+            {/* <img
               src={require("../Static/parallax-9.png")}
               class="single-doodle one"
               alt=""
-            />
+            /> */}
             <Grid item sm={12} md={6} className="my-auto">
               <div className={useStyles.root}>
                 <Typography

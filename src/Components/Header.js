@@ -34,46 +34,47 @@ class Header extends React.Component {
     return (
       <section className="masthead d-flex">
         <div className="container text-center my-auto">
-          <img
-            src={require("../Static/avatar.jpeg")}
-            alt=""
-            className="avatar"
-          />
-          <h3 className="mt-4" style={{ color: "#f44336" }}>
-            {greeting}
-            <br />
-            I'm Nikhil
             <img
-              src={require("../Static/peace.png")}
+              src={require("../Static/avatar.jpeg")}
               alt=""
-              className="img-peace"
+              className="avatar"
             />
-          </h3>
-          <h6 style={{ color: "#767676" }}>
-            Full Stack Web Developer and ML Enthusiast
-          </h6>
-          <div className="wave-effect wave-anim">
-            <div className="waves-shape shape-one">
+            <h3 className="mt-4" style={{ color: "#fff" }}>
+              {greeting}
+              <br />
+              I'm Nikhil
+              <img
+                src={require("../Static/peace.png")}
+                alt=""
+                className="img-peace"
+              />
+            </h3>
+            <h6 style={{ color: "#fff" }}>
+              Full Stack Web Developer and ML Enthusiast
+            </h6>
+          <div class="waveWrapper waveAnimation">
+
+            <div class="waveWrapperInner bgTop">
               <div
-                className="wave wave-one"
+                class="wave waveTop"
                 style={{
-                  // backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave1.png')`
+                  backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-top.png')`
                 }}
               />
             </div>
-            <div className="waves-shape shape-two">
+            <div class="waveWrapperInner bgMiddle">
               <div
-                className="wave wave-two"
+                class="wave waveMiddle"
                 style={{
-                  // backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave2.png')`
+                  backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-mid.png')`
                 }}
               />
             </div>
-            <div className="waves-shape shape-three">
+            <div class="waveWrapperInner bgBottom">
               <div
-                className="wave wave-three"
+                class="wave waveBottom"
                 style={{
-                  backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave3.png')`
+                  backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-bot.png')`
                 }}
               />
             </div>

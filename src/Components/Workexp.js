@@ -10,8 +10,8 @@ export default function Workexp() {
           <span>Work Experience</span>
         </div>
         <Container maxWidth="md">
-          <div class="card-deck">
-            <div class="card profile-card-5">
+          <div class="card-deck my-auto">
+            <div class="card">
               <div class="card-img-block">
                 <img
                   class="card-img-top"
@@ -32,7 +32,7 @@ export default function Workexp() {
               </div>
             </div>
 
-            <div class="card profile-card-5">
+            <div class="card">
               <div class="card-img-block">
                 <img
                   class="card-img-top"

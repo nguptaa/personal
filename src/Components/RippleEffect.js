@@ -1,4 +1,5 @@
 import React from "react";
+import "./RippleEffect.css"
 
 class RippleEffect extends React.Component {
   componentDidMount() {

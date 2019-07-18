@@ -1,5 +1,5 @@
 .parallax1 {
-  background-image: url(../Static/projects.png);
+  background-image: url(../Static/projects1.png);
   /* filter: blur(8px); */
   text-align: center;
   padding-top: 4rem;
@@ -15,7 +15,7 @@
   color: #fff;
 }
 .parallax2 {
-  background-image: url(../Static/work.png);
+  background-image: url(../Static/work1.png);
   /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
@@ -31,7 +31,7 @@
   color: #fff;
 }
 .parallax3 {
-  background-image: url(../Static/resume.png);
+  background-image: url(../Static/resume1.png);
   /* filter: grayscale(100%); */
   text-align: center;
   padding-top: 4rem;
