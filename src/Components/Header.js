@@ -1,18 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { makeStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    maxWidth: 500,
-    marginTop: "auto !important",
-    marginBottom: "auto !important"
-  }
-});
 
 class Header extends React.Component {
   state = {
@@ -44,41 +32,53 @@ class Header extends React.Component {
   render() {
     const { greeting } = this.state;
     return (
-      <section className="masthead">
-        <Container maxWidth="lg">
-          <Grid container spacing={5} className="vertical-middle-content">
-            <Grid item sm={12} className="my-auto text-center">
-              <div className={useStyles.root}>
-                <img
-                  src={require("../Static/avatar.jpeg")}
-                  alt=""
-                  className="avatar"
-                />
-              </div>
-            </Grid>
-            <Grid item sm={12} className="my-auto text-center">
-              <div className={useStyles.root}>
-                <Typography className="name" variant="h4" gutterBottom>
-                  {greeting}
-                  <br />
-                  I'm Nikhil
-                  <img
-                    src={require("../Static/peace.png")}
-                    alt=""
-                    className="img-peace"
-                  />
-                </Typography>
-                <Typography
-                  className="subname"
-                  variant="subtitle1"
-                  gutterBottom
-                >
-                  Full Stack Web Developer and ML Enthusiast
-                </Typography>
-              </div>
-            </Grid>
-          </Grid>
-        </Container>
+      <section className="masthead d-flex">
+        <div className="container text-center my-auto">
+          <img
+            src={require("../Static/avatar.jpeg")}
+            alt=""
+            className="avatar"
+          />
+          <h3 className="mt-4" style={{ color: "#f44336" }}>
+            {greeting}
+            <br />
+            I'm Nikhil
+            <img
+              src={require("../Static/peace.png")}
+              alt=""
+              className="img-peace"
+            />
+          </h3>
+          <h6 style={{ color: "#767676" }}>
+            Full Stack Web Developer and ML Enthusiast
+          </h6>
+          <div className="wave-effect wave-anim">
+            <div className="waves-shape shape-one">
+              <div
+                className="wave wave-one"
+                style={{
+                  // backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave1.png')`
+                }}
+              />
+            </div>
+            <div className="waves-shape shape-two">
+              <div
+                className="wave wave-two"
+                style={{
+                  // backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave2.png')`
+                }}
+              />
+            </div>
+            <div className="waves-shape shape-three">
+              <div
+                className="wave wave-three"
+                style={{
+                  backgroundImage: `url('http://dorsin-react.ourdemo.website/images/wave-shape/wave3.png')`
+                }}
+              />
+            </div>
+          </div>
+        </div>
       </section>
     );
   }

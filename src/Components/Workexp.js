@@ -1,131 +1,59 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
+import "./Workexp.css";
 import Container from "@material-ui/core/Container";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import QueueAnim from "rc-queue-anim";
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    textAlign: "center"
-  },
-  card: {
-    maxWidth: "100%",
-    height: "100%",
-    border: "none",
-    borderRadius: ".625rem",
-    boxShadow:
-      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
-  },
-  media: {
-    height: 200,
-    backgroundColor: "#f44336"
-  },
-  content: {
-    padding: "1.875rem"
-  }
-}));
+// import RippleEffect from "./RippleEffect";
 
 export default function Workexp() {
-  const classes = useStyles();
-
-  return (
-    <section class="work-experience mb-5">
-      <div class="parallax2 mb-5">
-        <span>Work Experience</span>
-      </div>
-      <Container maxWidth="md">
-        <div className={classes.root}>
-          <Grid container spacing={10}>
-            <Grid item xs={12} sm={6}>
-              <Card className={classes.card}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={require("../Static/kwoc.jpg")}
-                    title="kwoc"
-                    href="https:google.com/"
-                  />
-                  <CardContent className={classes.content}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Winter Open Source Development Intern, KWoC-IIT Kharagpur
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      component="p"
-                    >
-                      Contributed in developing student information portal of
-                      National Institute of Technology, Durgapur. Also added
-                      continuous integration and codecoverage in the github
-                      repository for better integration.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-                {/* <CardActions>
-                  <a
-                    href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      size="small"
-                      style={{ color: "#1976d2" }}
-                      variant="text"
-                    >
-                      Certificate
-                    </Button>
-                  </a>
-                </CardActions> */}
-              </Card>
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <Card className={classes.card}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={require("../Static/propelld.jpg")}
-                    title="Propelld"
-                  />
-                  <CardContent className={classes.content}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Web Developer Summer Intern, Propelld
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      component="p"
-                    >
-                      Contributed in developing student information portal of
-                      National Institute of Technology, Durgapur. Also added
-                      continuous integration and codecoverage in the github
-                      repository for better integration.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-                {/* <CardActions>
-                  <a
-                    href="https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Nikhil%20Gupta.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button size="small" style={{ color: "#1976d2" }}>
-                      Certificate
-                    </Button>
-                  </a>
-                </CardActions> */}
-              </Card>
-            </Grid>
-          </Grid>
+    return (
+      <section class="work-experience mb-5">
+        <div class="parallax2 mb-5">
+          <span>Work Experience</span>
         </div>
-      </Container>
-    </section>
-  );
+        <Container maxWidth="md">
+          <div class="card-deck">
+            <div class="card profile-card-5">
+              <div class="card-img-block">
+                <img
+                  class="card-img-top"
+                  src={require("../Static/kwoc.jpg")}
+                  alt="kwoc"
+                />
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title">
+                  Winter Intern at KWoC, IIT Kharagpur{" "}
+                </h5>
+                <p class="card-text">
+                  Contributed in developing student information portal of
+                  National Institute of Technology, Durgapur. Also added
+                  continuous integration and codecoverage in the github
+                  repository for better integration.
+                </p>
+              </div>
+            </div>
+
+            <div class="card profile-card-5">
+              <div class="card-img-block">
+                <img
+                  class="card-img-top"
+                  src={require("../Static/propelld.jpg")}
+                  alt="propelld"
+                />
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title">Summer Intern at Propelld, Bangalore</h5>
+                <p class="card-text">
+                  Created a complete well documented API from scratch for cache
+                  service and also integrated it with frontend for
+                  visualization. Also wrote an API for health checkup and
+                  service discovery, and remotely contributed in few API’s
+                  documentation of different services used.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+    );
 }
+

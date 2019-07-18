@@ -7,14 +7,13 @@
   padding-top: 8rem;
   padding-bottom: 8rem;
   /* background: url('../Static/bg.jpeg'); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   background: #100e17;
 }
 
-
-.vertical-middle-content {
+/* .vertical-middle-content {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -25,24 +24,15 @@
   -webkit-justify-content: center;
   flex-direction: row;
   -webkit-flex-direction: row;
-}
+} */
 
-.name {
-  color: #f44336;
-  text-align: center !important;
-}
 
-.subname {
-  color: #767676;
-  text-align: center !important;
-}
-
-.avatar{
+.avatar {
   border-radius: 50%;
+  border: 5px solid #767676;
   max-width: 100%;
-  max-height: 300px;
+  max-height: 200px;
   height: auto;
-
 }
 
 @media (min-width: 990px) {
@@ -72,3 +62,81 @@
     font-size: 1rem !important;
   }
 }
+
+.wave-effect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+.waves-shape {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shape-one {
+    z-index: 15;
+    opacity: 0.5;
+}
+
+.wave-anim .wave-one {
+    animation: move-wave 3s;
+    -webkit-animation: move-wave 3s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+@media (max-width: 768px){
+.wave-one, .wave-three {
+    background-size: 50% 50px;
+}}
+.wave-one {
+    background-size: 50% 100px;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+
+.shape-two {
+    z-index: 10;
+    opacity: 0.75;
+}
+
+.wave-anim .wave-two {
+    animation: move_wave 10s linear infinite;
+}
+@media (max-width: 768px){
+.wave-two {
+    background-size: 50% 70px;
+}
+.wave-two {
+    background-size: 50% 120px;
+}}
+
+.shape-three {
+    z-index: 5;
+}
+
+.wave-anim .wave-three {
+    animation: move_wave 15s linear infinite;
+}
+
+@media (max-width: 768px){
+.wave-one, .wave-three {
+    background-size: 50% 50px;
+}
+.wave-three {
+    background-size: 50% 100px;
+}}

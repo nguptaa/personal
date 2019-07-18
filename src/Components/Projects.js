@@ -18,7 +18,7 @@ export default function Projects() {
     <section className="projects">
       <div class="parallax1 mb-5">
         <span>Projects</span>
-        </div>
+      </div>
 
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -28,7 +28,6 @@ export default function Projects() {
           icon={<FontAwesomeIcon icon={faBrain} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Machine Learning</h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
           <p className="description">
             Working On! Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -45,9 +44,6 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">
             Twitter Sentiment Analysis
           </h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4> */}
           <p>
             A python script written out of a curiosity to know the reaction of
             peoples of my country Nepal on newly elected PM. The script
@@ -65,9 +61,6 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">
             Movie TV Show Notifier
           </h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
-          </h4> */}
           <p>
             A python script to send a user an email that contains information
             like release dates of the entered Movie/TV Show. It's written in
@@ -82,9 +75,6 @@ export default function Projects() {
           icon={<FontAwesomeIcon icon={faRobot} size="" />}
         >
           <h3 className="vertical-timeline-element-title">Schedule Bot </h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4> */}
           <p>
             Schedule Bot is a messenger based NLP(Natural Language Processing)
             bot which I made during my freshman year when I was too annoyed with
@@ -102,7 +92,6 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">
             Microsoft Campus Club Website
           </h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4> */}
           <p>
             Developed a fully responsive website(both frontend and backend) for
             the club throughout the summer from scratch completely on my own.

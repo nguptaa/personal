@@ -16,7 +16,7 @@ class About extends React.Component {
   render() {
     return (
       <section className="aboutme mb-5">
-        <Container maxWidth="lg">
+        <div className="container">
           <Grid container spacing={2} className="xs-column-reverse">
             <img
               src={require("../Static/parallax-9.png")}
@@ -32,7 +32,7 @@ class About extends React.Component {
                 >
                   About Me
                 </Typography>
-                <Typography variant="body1" className="about" gutterBottom>
+                <Typography variant="body1" className="text-justify" gutterBottom>
                   I am a Full Stack developer preferably Back End with industry
                   experience building websites and web applications. I have
                   professional experience working with nodeJS, ReactJS and
@@ -51,7 +51,7 @@ class About extends React.Component {
               />
             </Grid>
           </Grid>
-        </Container>
+          </div>
         {/* <div class="doodle-parallax">
             <img
               src={require("../Static/parallax-9.png")}
