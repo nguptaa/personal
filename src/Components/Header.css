@@ -18,6 +18,19 @@
   height: auto;
 }
 
+
+.tagline a {
+  color: #ffffff;
+  margin-top: 45px;
+
+}
+
+.tagline a:hover {
+  transform: scale(1.5) !important;
+  transition: transform 0.2s !important;
+}
+
+
 @media (min-width: 990px) {
   .masthead {
     height: 100vh;

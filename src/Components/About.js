@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 class About extends React.Component {
   render() {
     return (
-      <section className="aboutme mb-5">
+      <section className="aboutme mb-5" id="about">
         <div className="container">
           <Grid container spacing={2} className="xs-column-reverse">
             {/* <img
