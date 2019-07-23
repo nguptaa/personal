@@ -7,9 +7,7 @@ import "./About.css";
 const useStyles = makeStyles({
   root: {
     width: "100%",
-    maxWidth: 500,
-    animationName: "fadeInUp",
-    visibility: "visible"
+    maxWidth: 500
   }
 });
 
