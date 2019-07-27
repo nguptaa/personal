@@ -49,9 +49,9 @@ class Header extends React.Component {
           <h6 style={{ color: "#fff" }}>
             Full Stack Web Developer and ML Enthusiast
           </h6>
-          <div className="tagline">
+          {/* <div className="tagline">
             <a className="fas fa-chevron-down fa-3x" href="#about" />
-          </div>
+          </div> */}
         <div class="waveWrapper waveAnimation">
           <div class="waveWrapperInner bgTop">
             <div
