@@ -48,7 +48,8 @@ class Navbar extends React.Component {
             </li>
             <li className="sidebar-nav-item">
               <a className="js-scroll-trigger" href="#workexp">
-                Work <br/>Experience
+                Work <br />
+                Experience
               </a>
             </li>
             <li className="sidebar-nav-item">
