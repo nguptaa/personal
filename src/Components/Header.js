@@ -30,24 +30,37 @@ class Header extends React.Component {
   render() {
     const { greeting } = this.state;
     return (
-      <section className="masthead d-flex">
-        <div className="container text-center">
-          <img src={require("../Static/me.jpeg")} alt="" className="avatar" />
-          <h3 className="mt-4" style={{ color: "#fff" }}>
-            {greeting}
-            <br />
-            I'm Nikhil
-            <img
-              src={require("../Static/peace.png")}
-              alt=""
-              className="img-peace"
-            />
-          </h3>
-          <h6 style={{ color: "#fff" }}>
-            Full Stack Web Developer and ML Enthusiast
-          </h6>
-          <div className="tagline">
-            <a className="fas fa-chevron-down fa-3x" href="#about" />
+      <section className="masthead d-flex" id="page-top">
+        <div className="bg-overlay" />
+        <div className="display-table">
+          <div className="display-table-cell">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8 offset-lg-2 text-white text-center">
+                  <img
+                    src={require("../Static/me.jpeg")}
+                    alt=""
+                    className="avatar"
+                  />
+                  <h3 className="mt-4" style={{ color: "#fff" }}>
+                    {greeting}
+                    <br />
+                    I'm Nikhil
+                    <img
+                      src={require("../Static/peace.png")}
+                      alt=""
+                      className="img-peace"
+                    />
+                  </h3>
+                  <h6 style={{ color: "#fff" }}>
+                    Full Stack Web Developer and ML Enthusiast
+                  </h6>
+                  <div className="tagline">
+                    <a className="fas fa-chevron-down fa-3x" href="#about" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="wave-effect wave-anim">

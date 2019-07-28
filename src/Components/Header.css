@@ -1,13 +1,35 @@
 .masthead {
-  min-height: 30rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
+  height: 100vh;
+  background: url(../Static/bgmain.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-overlay {
+  background: linear-gradient(to top, #f44336 10%, #ffcdd2 90%);
+  opacity: 0.9;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.display-table {
   display: table;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(to top, #f44336 10%, #FFCDD2 90%);
+  height: 100%;
+}
 
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .avatar {
@@ -18,8 +40,7 @@
   height: auto;
 }
 
-
-.tagline a{
+.tagline a {
   color: #ffffff;
   margin-top: 25px;
 }
@@ -29,107 +50,77 @@
   transition: transform 0.2s !important;
 }
 
-
-@media (min-width: 990px) {
-  .masthead {
-    height: 100vh;
-    padding-top: 11rem;
-  }
-  .name {
-    font-size: 2.25rem !important;
-  }
-
-  .subname {
-    font-size: 1.25rem !important;
-  }
-}
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 800px) {
-  .masthead {
-    height: 100vh;
-    padding-top: 9rem;
-  }
-  .name {
-    font-size: 1.5rem !important;
-  }
-
-  .subname {
-    font-size: 1rem !important;
-  }
-}
-
 .wave-effect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    height: 150px;
-    overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 150px;
+  overflow: hidden;
 }
 
 .shape-one {
-    z-index: 15;
-    opacity: 0.5;
+  z-index: 15;
+  opacity: 0.35;
 }
 .shape-two {
-    z-index: 10;
-    opacity: 0.75;
+  z-index: 10;
+  opacity: 0.50;
 }
 .shape-three {
-    z-index: 5;
+  z-index: 5;
 }
 
 .wave {
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
 }
 
 .waves-shape {
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .wave-one {
-    background-size: 50% 100px;
+  background-size: 50% 100px;
 }
 
 .wave-anim .wave-one {
   animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+  -webkit-animation: move-wave 3s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 .wave-two {
-    background-size: 50% 120px;
+  background-size: 50% 120px;
 }
 .wave-anim .wave-two {
-    animation: move_wave 10s linear infinite;
+  animation: move_wave 10s linear infinite;
 }
 .wave-three {
-    background-size: 50% 100px;
+  background-size: 50% 100px;
 }
 .wave-anim .wave-three {
-    animation: move_wave 15s linear infinite;
+  animation: move_wave 15s linear infinite;
 }
 
-
 @keyframes move_wave {
-    0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
 }

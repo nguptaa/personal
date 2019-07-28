@@ -5,7 +5,7 @@ import Container from "@material-ui/core/Container";
 
 export default function Workexp() {
     return (
-      <section class="work-experience mb-5">
+      <section class="work-experience mb-5" id="workexp">
         <div class="parallax2 mb-5">
           <span>Work Experience</span>
         </div>

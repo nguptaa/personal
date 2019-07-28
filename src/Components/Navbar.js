@@ -47,6 +47,11 @@ class Navbar extends React.Component {
               </a>
             </li>
             <li className="sidebar-nav-item">
+              <a className="js-scroll-trigger" href="#workexp">
+                Work <br/>Experience
+              </a>
+            </li>
+            <li className="sidebar-nav-item">
               <a
                 className="js-scroll-trigger"
                 href="https://medium.com/@nguptaa/kwoc-kharagpur-winter-of-code-final-report-6d9d73ee7428"

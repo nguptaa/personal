@@ -11,6 +11,7 @@ class Projects extends React.Component {
           <hr />
           <Typography
             className="mb-4"
+            id="contact"
             variant="h5"
             style={{ color: "#767676" }}
             gutterBottom
