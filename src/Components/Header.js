@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./Header.css";
-import Typography from "@material-ui/core/Typography";
 
 class Header extends React.Component {
   state = {
@@ -25,6 +24,7 @@ class Header extends React.Component {
       this.setState({ greeting: "Hi! Good Afternoon " });
     } else if (hour >= 17 && hour < 24) {
       this.setState({ greeting: "Hi! Good Evening " });
+    }
   };
 
   render() {
@@ -46,35 +46,35 @@ class Header extends React.Component {
           <h6 style={{ color: "#fff" }}>
             Full Stack Web Developer and ML Enthusiast
           </h6>
-          {/* <div className="tagline">
+          <div className="tagline">
             <a className="fas fa-chevron-down fa-3x" href="#about" />
-          </div> */}
-        <div class="waveWrapper waveAnimation">
-          <div class="waveWrapperInner bgTop">
+          </div>
+        </div>
+        <div class="wave-effect wave-anim">
+          <div class="waves-shape shape-one">
             <div
-              class="wave waveTop"
+              class="wave wave-one"
               style={{
                 backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-top.png')`
               }}
             />
           </div>
-          <div class="waveWrapperInner bgMiddle">
+          <div class="waves-shape shape-two">
             <div
-              class="wave waveMiddle"
+              class="wave wave-two"
               style={{
                 backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-mid.png')`
               }}
             />
           </div>
-          <div class="waveWrapperInner bgBottom">
+          <div class="waves-shape shape-three">
             <div
-              class="wave waveBottom"
+              class="wave wave-three"
               style={{
                 backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-bot.png')`
               }}
             />
           </div>
-        </div>
         </div>
       </section>
     );

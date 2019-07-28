@@ -42,7 +42,7 @@ class Navbar extends React.Component {
               </a>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#services">
+              <a className="js-scroll-trigger" href="#projects">
                 Projects
               </a>
             </li>

@@ -11,7 +11,7 @@ export default function Workexp() {
         </div>
         <Container maxWidth="md">
           <div class="card-deck my-auto">
-            <div class="card">
+            <div class="card bounce-in">
               <div class="card-img-block">
                 <img
                   class="card-img-top"

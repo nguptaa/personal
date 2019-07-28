@@ -15,7 +15,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <div class="parallax1 mb-5">
         <span>Projects</span>
       </div>
