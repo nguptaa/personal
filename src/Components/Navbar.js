@@ -15,7 +15,7 @@ class Navbar extends React.Component {
     });
 
     // Closes responsive menu when a scroll trigger link is clicked
-    $("#sidebar-wrapper .js-scroll-trigger").click(function() {
+    $("#sidebar-wrapper").click(function() {
       $("#sidebar-wrapper").removeClass("active");
       $(".menu-toggle").removeClass("active");
       $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass(

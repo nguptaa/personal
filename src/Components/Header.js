@@ -56,7 +56,11 @@ class Header extends React.Component {
                     Full Stack Web Developer and ML Enthusiast
                   </h6>
                   <div className="tagline">
-                    <a className="fas fa-chevron-down fa-3x" href="#about" />
+                    <a
+                      data-scroll
+                      className="fas fa-chevron-down fa-3x"
+                      href="#projects"
+                    />
                   </div>
                 </div>
               </div>
