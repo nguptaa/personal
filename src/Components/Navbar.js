@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Scrollchor from "react-scrollchor";
 import $ from "jquery";
 
 class Navbar extends React.Component {
@@ -32,19 +33,19 @@ class Navbar extends React.Component {
         <nav id="sidebar-wrapper">
           <ul className="sidebar-nav">
             <li className="sidebar-brand">
-              <a href="#page-top">Home</a>
+              <Scrollchor to="#page-top">Home</Scrollchor>
             </li>
             <li className="sidebar-nav-item">
-              <a href="#about">About</a>
+              <Scrollchor to="#about">About</Scrollchor>
             </li>
             <li className="sidebar-nav-item">
-              <a href="#projects">Projects</a>
+              <Scrollchor to="#projects">Projects</Scrollchor>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#workexp">
+              <Scrollchor to="#workexp">
                 Work <br />
                 Experience
-              </a>
+              </Scrollchor>
             </li>
             <li className="sidebar-nav-item">
               <a
@@ -56,7 +57,7 @@ class Navbar extends React.Component {
               </a>
             </li>
             <li className="sidebar-nav-item">
-              <a href="#contact">Contact</a>
+              <Scrollchor to="#contact">Contacts</Scrollchor>
             </li>
           </ul>
         </nav>
