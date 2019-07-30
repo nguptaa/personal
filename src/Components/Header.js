@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import Scrollchor from "react-scrollchor";
 import "./Header.css";
 
 class Header extends React.Component {
@@ -56,10 +57,9 @@ class Header extends React.Component {
                     Full Stack Web Developer and ML Enthusiast
                   </h6>
                   <div className="tagline">
-                    <a
-                      className="fas fa-chevron-down fa-3x"
-                      href="#about"
-                    />
+                    <Scrollchor to="#about">
+                      <i className="fas fa-chevron-down fa-3x"></i>
+                    </Scrollchor>
                   </div>
                 </div>
               </div>

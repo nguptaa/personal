@@ -40,12 +40,12 @@
   height: auto;
 }
 
-.tagline a {
+.tagline i {
   color: #ffffff;
   margin-top: 25px;
 }
 
-.tagline a:hover {
+.tagline i:hover {
   transform: scale(1.5) !important;
   transition: transform 0.2s !important;
 }
