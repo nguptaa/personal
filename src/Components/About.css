@@ -1,19 +1,13 @@
 .aboutme {
   color: #767676;
-  margin: 2rem;
-
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .MuiTypography-body1 {
   font-family: "Montserrat", sans-serif !important;
   line-height: 1.85 !important;
 }
-
-.one{
-  position: fixed;
-    left: 0;
-}
-
 
 @media only screen and (max-width: 800px) {
   .xs-column-reverse {
