@@ -57,9 +57,8 @@ class Header extends React.Component {
                   </h6>
                   <div className="tagline">
                     <a
-                      data-scroll
                       className="fas fa-chevron-down fa-3x"
-                      href="#projects"
+                      href="#about"
                     />
                   </div>
                 </div>

@@ -32,29 +32,24 @@ class Navbar extends React.Component {
         <nav id="sidebar-wrapper">
           <ul className="sidebar-nav">
             <li className="sidebar-brand">
-              <a className="js-scroll-trigger" href="#page-top">
-                Home
-              </a>
+              <a href="#page-top">Home</a>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#about">
-                About
-              </a>
+              <a href="#about">About</a>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#projects">
-                Projects
-              </a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#workexp">
+              {/* <a href="#workexp"> */}
+              <AnchorLink offset="100" href="#workexp">
                 Work <br />
                 Experience
-              </a>
+              </AnchorLink>
+              {/* </a> */}
             </li>
             <li className="sidebar-nav-item">
               <a
-                className="js-scroll-trigger"
                 href="https://medium.com/@nguptaa/kwoc-kharagpur-winter-of-code-final-report-6d9d73ee7428"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -63,9 +58,7 @@ class Navbar extends React.Component {
               </a>
             </li>
             <li className="sidebar-nav-item">
-              <a className="js-scroll-trigger" href="#contact">
-                Contact
-              </a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
