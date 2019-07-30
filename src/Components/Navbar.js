@@ -41,12 +41,10 @@ class Navbar extends React.Component {
               <a href="#projects">Projects</a>
             </li>
             <li className="sidebar-nav-item">
-              {/* <a href="#workexp"> */}
-              <AnchorLink offset="100" href="#workexp">
+              <a className="js-scroll-trigger" href="#workexp">
                 Work <br />
                 Experience
-              </AnchorLink>
-              {/* </a> */}
+              </a>
             </li>
             <li className="sidebar-nav-item">
               <a
