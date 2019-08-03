@@ -20,7 +20,7 @@ export default function Projects() {
         <span>Projects</span>
       </div>
 
-      <VerticalTimeline>
+      <VerticalTimeline className="projectsmain">
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="Feb, 2019"
