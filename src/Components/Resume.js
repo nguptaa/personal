@@ -9,7 +9,7 @@ class Projects extends React.Component {
           <span>My Resumé</span>
           <span>
             <a
-              href="https://drive.google.com/file/d/12syYOENvAp8ogMV3H3KkmKDzuwYr8OE7/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qTSqUj4pC3RlVDTuT0HSsuvbtEtX2r7F/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
