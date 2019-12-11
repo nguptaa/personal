@@ -39,7 +39,7 @@ class Header extends React.Component {
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-white text-center">
                   <img
-                    src={require("../Static/me.jpeg")}
+                    src={require("../Static/me.jpg")}
                     alt=""
                     className="avatar"
                   />
