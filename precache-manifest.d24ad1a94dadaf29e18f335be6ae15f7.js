@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b34995f5a0b81c806c09670297af071c",
+    "revision": "d38948fda8f8bd9819c7f746f2309bfe",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d819a5bb.chunk.css"
   },
   {
-    "revision": "80e261f6f50e400ae263",
-    "url": "/static/css/main.bee40fba.chunk.css"
+    "revision": "546be9fa8b12a7961219",
+    "url": "/static/css/main.db8dd773.chunk.css"
   },
   {
     "revision": "0018cb26f335de6da365",
     "url": "/static/js/2.4f4cc636.chunk.js"
   },
   {
-    "revision": "80e261f6f50e400ae263",
-    "url": "/static/js/main.386a7cdb.chunk.js"
+    "revision": "546be9fa8b12a7961219",
+    "url": "/static/js/main.e5826819.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,31 +28,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aboutme.37ba966b.png"
   },
   {
-    "revision": "6871ae919b1eea4fd45d97b1ee6d1e8d",
-    "url": "/static/media/bgmain.6871ae91.jpeg"
+    "revision": "b3f8b0bb8284c820c4689d7fe45eeef9",
+    "url": "/static/media/bgmain.b3f8b0bb.jpg"
   },
   {
     "revision": "6ca3aa74af682e0ddeed658cd2ab6896",
     "url": "/static/media/kwoc.6ca3aa74.jpg"
   },
   {
-    "revision": "d51199429c181cef1696cef6bf610b1e",
-    "url": "/static/media/me.d5119942.jpeg"
+    "revision": "7e3292f1a024000aa5c602a4ff90a99c",
+    "url": "/static/media/me.7e3292f1.jpg"
   },
   {
-    "revision": "f220b360bdef869e90b3aacca7395789",
-    "url": "/static/media/projects2.f220b360.png"
+    "revision": "f40a294c92de8ffc9fb53b0b11950aad",
+    "url": "/static/media/projects2.f40a294c.jpg"
   },
   {
     "revision": "30495c8d502c1c27e319b19d15b56ae7",
     "url": "/static/media/propelld.30495c8d.jpg"
   },
   {
-    "revision": "0ca800e18748bed42de6f1954e66b0a9",
-    "url": "/static/media/resume2.0ca800e1.png"
+    "revision": "a541524710e7030ce3fae36120446f07",
+    "url": "/static/media/resume2.a5415247.jpg"
   },
   {
-    "revision": "908f1a71429531a78c37d001b726aafd",
-    "url": "/static/media/work2.908f1a71.png"
+    "revision": "3a42b658ecdc86cd7f1acf13da57d66b",
+    "url": "/static/media/work2.3a42b658.jpg"
   }
 ]);
