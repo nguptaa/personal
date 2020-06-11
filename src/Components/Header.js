@@ -71,7 +71,7 @@ class Header extends React.Component {
             <div
               class="wave wave-one"
               style={{
-                backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-top.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-top.png')`
               }}
             />
           </div>
@@ -79,7 +79,7 @@ class Header extends React.Component {
             <div
               class="wave wave-two"
               style={{
-                backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-mid.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-mid.png')`
               }}
             />
           </div>
@@ -87,7 +87,7 @@ class Header extends React.Component {
             <div
               class="wave wave-three"
               style={{
-                backgroundImage: `url('http://front-end-noobs.com/jecko/img/wave-bot.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-bot.png')`
               }}
             />
           </div>
