@@ -6,7 +6,7 @@ import "./Header.css";
 class Header extends React.Component {
   state = {
     hour: null,
-    greeting: ""
+    greeting: "",
   };
 
   componentDidMount() {
@@ -17,7 +17,7 @@ class Header extends React.Component {
     const date = new Date();
     const hour = date.getHours();
     this.setState({
-      hour
+      hour,
     });
     if (hour < 12) {
       this.setState({ greeting: "Hi! Good Morning " });
@@ -71,7 +71,7 @@ class Header extends React.Component {
             <div
               class="wave wave-one"
               style={{
-                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-top.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-top.png')`,
               }}
             />
           </div>
@@ -79,7 +79,7 @@ class Header extends React.Component {
             <div
               class="wave wave-two"
               style={{
-                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-mid.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-mid.png')`,
               }}
             />
           </div>
@@ -87,7 +87,7 @@ class Header extends React.Component {
             <div
               class="wave wave-three"
               style={{
-                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-bot.png')`
+                backgroundImage: `url('https://front-end-noobs.com/jecko/img/wave-bot.png')`,
               }}
             />
           </div>
