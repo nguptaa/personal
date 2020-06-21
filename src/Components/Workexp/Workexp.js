@@ -2,20 +2,21 @@ import React from "react";
 import "./Workexp.css";
 import Container from "@material-ui/core/Container";
 // import RippleEffect from "./RippleEffect";
+import Typography from "@material-ui/core/Typography";
 
 export default function Workexp() {
   return (
     <section class="work-experience mb-5" id="workexp">
-      <div class="parallax2 mb-5">
-        <span>Work Experience</span>
-      </div>
       <Container maxWidth="md">
+        <Typography style={{ color: '#eb655b', textAlign: 'center' }} variant="h5" gutterBottom>
+          Work Experience
+        </Typography>
         <div class="card-deck my-auto">
           <div class="card bounce-in">
             <div class="card-img-block">
               <img
                 class="card-img-top"
-                src={require("../Static/kwoc.jpg")}
+                src={require("../../Static/kwoc.jpg")}
                 alt="kwoc"
               />
             </div>
@@ -34,7 +35,7 @@ export default function Workexp() {
             <div class="card-img-block">
               <img
                 class="card-img-top"
-                src={require("../Static/propelld.jpg")}
+                src={require("../../Static/propelld.jpg")}
                 alt="propelld"
               />
             </div>

@@ -13,6 +13,10 @@ html {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.parallax{
+  height: 100%;
+}
+
 a,
 a:hover,
 a:active,

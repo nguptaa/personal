@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Header from "./Header";
-import About from "./About";
-import Projects from "./Projects";
-import Workexp from "./Workexp";
-import Resume from "./Resume";
-import Footer from "./Footer";
+import Navbar from "./Navbar/Navbar";
+import Header from "./Header/Header";
+import About from "./About/About";
+import Projects from "./Projects/Projects";
+import Workexp from "./Workexp/Workexp";
+import Resume from "./Resume/Resume";
+import Footer from "./Footer/Footer";
 
 class App extends React.Component {
   render() {

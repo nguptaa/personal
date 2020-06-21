@@ -20,11 +20,11 @@ class Header extends React.Component {
       hour,
     });
     if (hour < 12) {
-      this.setState({ greeting: "Hi! Good Morning " });
+      this.setState({ greeting: "Hi all, Good Morning " });
     } else if (hour >= 12 && hour < 17) {
-      this.setState({ greeting: "Hi! Good Afternoon " });
+      this.setState({ greeting: "Hi all, Good Afternoon " });
     } else if (hour >= 17 && hour < 24) {
-      this.setState({ greeting: "Hi! Good Evening " });
+      this.setState({ greeting: "Hi all, Good Evening " });
     }
   };
 
@@ -39,7 +39,7 @@ class Header extends React.Component {
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-white text-center">
                   <img
-                    src={require("../Static/me.jpg")}
+                    src={require("../../Static/me.jpg")}
                     alt=""
                     className="avatar"
                   />
@@ -47,11 +47,14 @@ class Header extends React.Component {
                     {greeting}
                     <br />
                     I'm Nikhil
-                    <img
-                      src={require("../Static/peace.png")}
-                      alt=""
-                      className="img-peace"
-                    />
+                    <span class="wave-emoji">
+                      <img
+                        class="img-peace"
+                        alt="👋"
+                        draggable="false"
+                        src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"
+                      />
+                    </span>
                   </h3>
                   <h6 style={{ color: "#fff" }}>
                     Full Stack Web Developer and ML Enthusiast

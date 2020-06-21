@@ -53,7 +53,7 @@ class About extends React.Component {
                 data-wow-delay="0.1s"
               >
                 <img
-                  src={require("../Static/aboutme.png")}
+                  src={require("../../Static/aboutme.png")}
                   alt=""
                   className="img-fluid"
                 />

@@ -3,7 +3,7 @@
   padding-bottom: 80px;
   position: relative;
   height: 100vh;
-  background: url(../Static/bgmain.jpg);
+  background: url(../../Static/bgmain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,6 +40,45 @@
   height: auto;
 }
 
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.img-peace {
+  height: 1em;
+  width: 1em;
+  margin: 0px 0.05em 0px 0.1em;
+  vertical-align: -0.1em;
+}
+
 .tagline i {
   color: #ffffff;
   margin-top: 25px;
@@ -66,7 +105,7 @@
 }
 .shape-two {
   z-index: 10;
-  opacity: 0.50;
+  opacity: 0.5;
 }
 .shape-three {
   z-index: 5;
