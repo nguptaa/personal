@@ -1,10 +1,10 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Nikhil Gupta',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
-  url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  author: 'Nikhil Gupta',
+  url: 'https://ngupta.me',
+  legalName: 'Nikhil Gupta',
+  defaultDescription: 'I’m Nikhil and I’m a Full Stack Developer!',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
@@ -13,7 +13,7 @@ module.exports = {
     youtube: 'https://www.youtube.com/user/smakoshthegamer',
     google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
   },
-  googleAnalyticsID: 'UA-88875900-4',
+  googleAnalyticsID: 'UA-170301730-1',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
@@ -30,5 +30,5 @@ module.exports = {
     email: 'email',
     phone: 'phone number',
   },
-  foundingDate: '2018',
+  foundingDate: '2016',
 };
