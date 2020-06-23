@@ -52,14 +52,14 @@ export const Projects = () => {
           <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
             <Card>
               <Content>
-                <h4>{node.name}</h4>
+                <h3>{node.name}</h3>
                 <p>{node.description}</p>
               </Content>
               <Stats>
-                {/* <div>
+                <div className="repo-lang">
                   <span className="language-color" style={{ backgroundColor: node.primaryLanguage.color }}></span>
                   <span>{node.primaryLanguage.name}</span>
-                </div> */}
+                </div>
                 <div>
                   <img src={starIcon} alt="stars" />
                   <span>{node.stargazers.totalCount}</span>

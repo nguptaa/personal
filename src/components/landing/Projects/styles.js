@@ -26,7 +26,7 @@ export const Item = styled.div`
   overflow: hidden;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
-  h4 {
+  h3 {
     color: #212121;
   }
 
@@ -42,12 +42,11 @@ export const Content = styled.div`
 export const Stats = styled.div`
   display: flex;
   align-items: center;
+  font-size: 15px;
 
   div {
     display: flex;
-    &:first-child {
-      margin-right: 0.5rem;
-    }
+    margin-right: 0.5rem;
 
     img {
       margin: 0;
@@ -55,7 +54,7 @@ export const Stats = styled.div`
 
     span {
       color: #000;
-      margin-left: 0.5rem;
+      margin-left: 0.1rem;
     }
   }
 `;
