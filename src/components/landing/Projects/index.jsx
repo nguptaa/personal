@@ -4,30 +4,38 @@ import { Container, Card } from 'components/common';
 import starIcon from 'assets/icons/star.svg';
 import forkIcon from 'assets/icons/fork.svg';
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
+import './style.css';
 
 export const Projects = () => {
   const {
     github: {
-      viewer: {
-        repositories: { edges },
+      user: {
+        pinnedItems: { edges },
       },
     },
   } = useStaticQuery(
     graphql`
       {
         github {
-          viewer {
-            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+          user(login: "nguptaa") {
+            pinnedItems(first: 6, types: [REPOSITORY]) {
               edges {
                 node {
-                  id
-                  name
-                  url
-                  description
-                  stargazers {
-                    totalCount
+                  ... on GitHub_Repository {
+                    name
+                    description
+                    forkCount
+                    stargazers {
+                      totalCount
+                    }
+                    url
+                    id
+                    diskUsage
+                    primaryLanguage {
+                      name
+                      color
+                    }
                   }
-                  forkCount
                 }
               }
             }
@@ -48,6 +56,10 @@ export const Projects = () => {
                 <p>{node.description}</p>
               </Content>
               <Stats>
+                {/* <div>
+                  <span className="language-color" style={{ backgroundColor: node.primaryLanguage.color }}></span>
+                  <span>{node.primaryLanguage.name}</span>
+                </div> */}
                 <div>
                   <img src={starIcon} alt="stars" />
                   <span>{node.stargazers.totalCount}</span>
