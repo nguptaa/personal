@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Nikhil Gupta',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: 'https://ngupta.me/favicon/favicon-org.png',
   author: 'Nikhil Gupta',
   url: 'https://ngupta.me',
   legalName: 'Nikhil Gupta',
