@@ -30,7 +30,6 @@ export const Projects = () => {
                     }
                     url
                     id
-                    diskUsage
                     primaryLanguage {
                       name
                       color
