@@ -11,8 +11,6 @@ module.exports = {
     github: 'https://github.com/nguptaa',
     linkedin: 'https://www.linkedin.com/in/nguptaa/',
     instagram: 'https://instagram.com/aayannikhil',
-    youtube: '',
-    google: '',
   },
   googleAnalyticsID: 'UA-170301730-1',
   themeColor: '#6b63ff',

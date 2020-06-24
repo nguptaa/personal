@@ -40,12 +40,11 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 			"postalCode": "${address.zipCode}"
 		},
 		"sameAs": [
+      "${socialLinks.facebook}",
 			"${socialLinks.twitter}",
-			"${socialLinks.google}",
-			"${socialLinks.youtube}",
+			"${socialLinks.github}",
 			"${socialLinks.linkedin}",
 			"${socialLinks.instagram}",
-			"${socialLinks.github}"
 		]
   	}`;
 
@@ -54,7 +53,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta name="description" content={description} />
       <meta name="image" content={Thumbnail} />
 
-      <meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
+      <meta property="og:url" content={`${url}${location}/?ref=ngupta.me`} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -68,7 +67,6 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image:src" content={Thumbnail} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
-      <link rel="publisher" href={socialLinks.google} />
       <title>{title}</title>
       <html lang="en" dir="ltr" />
     </Helmet>
