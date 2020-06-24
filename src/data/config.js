@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Nikhil Gupta',
-  logo: 'https://ngupta.me/favicon/favicon-org.png',
+  logo: 'https://raw.githubusercontent.com/nguptaa/portfolio/master/static/favicon/favicon-org.png',
   author: 'Nikhil Gupta',
   url: 'https://ngupta.me',
   legalName: 'Nikhil Gupta',
