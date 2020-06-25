@@ -3,10 +3,15 @@ import { Link } from 'gatsby';
 import { Container } from 'components/common';
 import NavbarLinks from '../NavbarLinks';
 import { Wrapper } from './styles';
+import './style.css';
 
 const Navbar = () => (
   <Wrapper as={Container}>
-    <Link to="/">Nikhil Gupta</Link>
+    <Link to="/">
+      <span className="grey-color"> &lt;</span>
+      <span className="logo-name">Nikhil Gupta</span>
+      <span className="grey-color">/&gt;</span>
+    </Link>
     <NavbarLinks desktop />
   </Wrapper>
 );
