@@ -26,12 +26,18 @@ export const Item = styled.div`
   overflow: hidden;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
-  h3 {
-    color: #212121;
+  div.repo-name {
+    display: flex;
+    align-items: center;
+
+    h3 {
+      color: #212121;
+      margin-left: 0.3rem;
+    }
   }
 
   p {
-    color: #707070;
+    color: #586069;
   }
 `;
 
@@ -42,7 +48,23 @@ export const Content = styled.div`
 export const Stats = styled.div`
   display: flex;
   align-items: center;
+  color: #586069;
+  justify-content: space-between;
   font-size: 15px;
+
+  div.repo-lang {
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 0.75rem;
+  }
+
+  span.language-color {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin-right: 0.15rem;
+    border-radius: 100%;
+  }
 
   div {
     display: flex;
@@ -53,7 +75,6 @@ export const Stats = styled.div`
     }
 
     span {
-      color: #000;
       margin-left: 0.1rem;
     }
   }

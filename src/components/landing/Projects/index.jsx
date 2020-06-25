@@ -3,8 +3,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Card } from 'components/common';
 import starIcon from 'assets/icons/star.svg';
 import forkIcon from 'assets/icons/fork.svg';
+import repoIcon from 'assets/icons/repo.svg';
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
-import './style.css';
 
 export const Projects = () => {
   const {
@@ -30,6 +30,7 @@ export const Projects = () => {
                     }
                     url
                     id
+                    diskUsage
                     primaryLanguage {
                       name
                       color
@@ -51,21 +52,29 @@ export const Projects = () => {
           <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
             <Card>
               <Content>
-                <h3>{node.name}</h3>
+                <div className="repo-name">
+                  <img src={repoIcon} alt="repo" />
+                  <h3>{node.name}</h3>
+                </div>
                 <p>{node.description}</p>
               </Content>
               <Stats>
-                <div className="repo-lang">
-                  <span className="language-color" style={{ backgroundColor: node.primaryLanguage.color }}></span>
-                  <span>{node.primaryLanguage.name}</span>
+                <div className="repo-left">
+                  <div className="repo-lang">
+                    <span className="language-color" style={{ backgroundColor: node.primaryLanguage.color }}></span>
+                    <span>{node.primaryLanguage.name}</span>
+                  </div>
+                  <div>
+                    <img src={starIcon} alt="stars" />
+                    <span>{node.stargazers.totalCount}</span>
+                  </div>
+                  <div>
+                    <img src={forkIcon} alt="forks" />
+                    <span>{node.forkCount}</span>
+                  </div>
                 </div>
-                <div>
-                  <img src={starIcon} alt="stars" />
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div>
-                  <img src={forkIcon} alt="forks" />
-                  <span>{node.forkCount}</span>
+                <div className="repo-right">
+                  <span>{node.diskUsage} KB</span>
                 </div>
               </Stats>
             </Card>
