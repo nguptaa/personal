@@ -5,4 +5,15 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  span.grey-color {
+    color: #868e96;
+  }
+
+  span.logo-name {
+    font-family: 'Agustina Regular' !important;
+    font-weight: 700;
+    font-size: x-large;
+    padding: 0 10px;
+  }
 `;
