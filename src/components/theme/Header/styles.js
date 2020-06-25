@@ -2,6 +2,12 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  border: none;
   width: 100%;
 `;
 

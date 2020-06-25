@@ -1,19 +1,9 @@
 import styled from 'styled-components';
-import overlayIllustration from 'assets/illustrations/overlay.svg';
-
-export const Wrapper = styled.div`
-  padding-bottom: 4rem;
-  background-image: url(${overlayIllustration});
-  background-size: contain;
-  background-position: right top;
-  background-repeat: no-repeat;
-`;
 
 export const IntroWrapper = styled.div`
-  padding: 4rem 0;
+  justify-content: space-between;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -22,41 +12,52 @@ export const IntroWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
-
-  @media (max-width: 960px) {
-    width: 100%;
-    margin-bottom: 2rem;
+  text-align: center;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  div.button-greeting-div {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
   }
   h1 {
-    margin-bottom: 2rem;
-    font-size: 36pt;
-    color: #212121;
-
-    @media (max-width: 680px) {
-      font-size: 30pt;
-    }
+    font-size: 70px;
+    line-height: 1.1;
   }
 
-  h4 {
-    margin-bottom: 2.5rem;
-    font-size: 32pt;
-    font-weight: normal;
-    color: #707070;
+  p {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
-    @media (max-width: 680px) {
-      font-size: 26pt;
+  /* Media Query */
+  @media (max-width: 1380px) {
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+      ${'' /* text-align: center; */}
+    }
+    p {
+      font-size: 16px;
+      line-height: normal;
+      ${'' /* text-align: center; */}
     }
   }
 `;
 
 export const Thumbnail = styled.div`
   flex: 1;
-
-  @media (max-width: 960px) {
-    width: 100%;
-  }
-
   img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 `;

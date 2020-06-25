@@ -13,6 +13,23 @@
   transform-origin: 70% 70%;
 }
 
+.bg-main {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 5rem;
+  /* text-align: center; */
+  background-size: cover;
+  overflow: hidden;
+}
+
+.bg-content {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 30px;
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);
