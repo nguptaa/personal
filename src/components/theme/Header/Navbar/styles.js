@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
   span.logo-name {
     font-family: 'Agustina Regular' !important;
     font-weight: 700;
-    font-size: x-large;
     padding: 0 10px;
   }
 `;
