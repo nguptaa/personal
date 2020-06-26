@@ -15,6 +15,6 @@ export const Wrapper = styled.div`
     font-family: 'Agustina Regular' !important;
     font-weight: 700;
     color: #572b8b;
-    padding: 0 10px;
+    padding: 0 0.8rem;
   }
 `;

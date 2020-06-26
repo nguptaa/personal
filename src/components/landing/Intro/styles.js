@@ -5,31 +5,31 @@ export const IntroWrapper = styled.div`
   display: flex;
   align-items: center;
 
-  @media (max-width: 960px) {
-    flex-direction: column;
+  @media (max-width: 768px) {
+    display: block;
   }
 `;
 
 export const Details = styled.div`
   flex: 1;
-  text-align: center;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+
   div.button-greeting-div {
     display: flex;
     margin-top: 15px;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 15px;
   }
   h1 {
-    font-size: 70px;
-    line-height: 1.1;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: #586069;
   }
 
   p {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 1.5rem;
+    color: #586069;
   }
 
   /* Media Query */
@@ -37,19 +37,31 @@ export const Details = styled.div`
     h1 {
       font-size: 50px;
     }
+    h3 {
+      font-size: 1rem;
+    }
     p {
       font-size: 20px;
     }
   }
   @media (max-width: 768px) {
+    div.button-greeting-div {
+      align-items: center;
+      justify-content: center;
+    }
+
     h1 {
       font-size: 30px;
-      ${'' /* text-align: center; */}
+      text-align: center;
+    }
+    h3 {
+      font-size: 1.2rem;
+      text-align: center;
     }
     p {
       font-size: 16px;
       line-height: normal;
-      ${'' /* text-align: center; */}
+      text-align: center;
     }
   }
 `;

@@ -7,7 +7,7 @@ export const Button = styled.button`
   border: solid 1px #572b8b;
   text-transform: uppercase;
   text-align: center;
-  margin: 10px;
+  margin-right: 10px;
   text-decoration: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;

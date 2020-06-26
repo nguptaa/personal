@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import manOnTable from 'assets/illustrations/manOnTable.svg';
+// import mouse from 'assets/icons/mouse.svg';
 import { IntroWrapper, Details, Thumbnail } from './styles';
 import './style.css';
 
@@ -32,7 +33,6 @@ export const Intro = () => {
             </h1>
             <h3>{greeting}!</h3>
             <p>
-              I’m Nikhil, <br />
               Full Stack developer & <br />
               ML Enthusiast!
             </p>
@@ -49,6 +49,13 @@ export const Intro = () => {
             <img src={manOnTable} alt="I’m Nikhil and I’m a Full Stack developer!" />
           </Thumbnail>
         </IntroWrapper>
+        <AnchorLink href="#projects">
+          <div className="scrollDown">
+            <div className="mousey">
+              <div className="scroller"></div>
+            </div>
+          </div>
+        </AnchorLink>
       </div>
     </div>
   );
