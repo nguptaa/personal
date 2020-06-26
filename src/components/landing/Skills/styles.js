@@ -6,6 +6,9 @@ export const Wrapper = styled.div`
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const SkillsWrapper = styled.div`

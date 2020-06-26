@@ -25,18 +25,34 @@ export const Button = styled.button`
 
   &:hover {
     background-color: #ffffff;
-    color: black;
+    color: #572b8b;
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
   }
 
+  /* Media Query */
+  @media (max-width: 768px) {
+    & {
+      font-size: 15px;
+      padding: 0.3rem 1.5rem;
+      margin-right: 5px;
+    }
+  }
+  @media (max-width: 320px) {
+    & {
+      font-size: 12px;
+    }
+  }
+
   &:disabled {
-    background: gray;
+    background: #9571bf;
+    border: solid 1px #9571bf;
   }
 
   ${({ secondary }) =>
     secondary &&
     `
-		background: #001F3F;
+		background: #572b8b;
+
 	`}
 `;
