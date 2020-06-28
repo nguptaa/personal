@@ -2,10 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
-  h2 {
-    color: #572b8b;
-  }
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     h2 {
       text-align: center;
     }

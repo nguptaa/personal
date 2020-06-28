@@ -7,7 +7,7 @@ export const Button = styled.button`
   border: solid 1px #572b8b;
   text-transform: uppercase;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 1rem;
   text-decoration: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
@@ -35,7 +35,7 @@ export const Button = styled.button`
     & {
       font-size: 15px;
       padding: 0.3rem 1.5rem;
-      margin-right: 5px;
+      margin-right: 0.5rem;
     }
   }
   @media (max-width: 320px) {

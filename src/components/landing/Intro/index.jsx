@@ -25,25 +25,29 @@ export const Intro = () => {
       <div className="bg-content">
         <IntroWrapper as={Container}>
           <Details>
-            <h1>
-              Hi There, I'm Nikhil
+            <h2>
+              Hi There{' '}
               <span className="wave-emoji">
                 <img className="wave" alt="👋" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" />
               </span>
-            </h1>
+              <br />
+              <h1>I'm Nikhil.</h1>
+            </h2>
             <h3>{greeting}!</h3>
             <p>
-              Full Stack developer & <br />
-              ML Enthusiast!
+              I am a Full Stack developer with industry experience building websites and web applications. My field of
+              interest includes but not limited to Web Development, Scalability, Machine Learning/AI, Data Science.
             </p>
-            <div className="button-greeting-div">
+            {/* I have experience working with Python, C/C++, Flutter/Dart, HTML, CSS, JavaScript, nodeJS, ReactJS, PHP,
+            VCS/Git, BootStrap. */}
+            {/* <div className="button-greeting-div">
               <Button as={AnchorLink} href="#contact">
                 Hire me
               </Button>
               <Button as={AnchorLink} href="#contact">
-                Hire me
+                Resume
               </Button>
-            </div>
+            </div> */}
           </Details>
           <Thumbnail>
             <img src={manOnTable} alt="I’m Nikhil and I’m a Full Stack developer!" />
