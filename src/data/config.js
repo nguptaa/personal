@@ -4,7 +4,8 @@ module.exports = {
   author: 'Nikhil Gupta',
   url: 'https://ngupta.me',
   legalName: 'Nikhil Gupta',
-  defaultDescription: 'I’m Nikhil and I’m a Full Stack Developer!',
+  defaultDescription:
+    'I’m Nikhil and I am a Full Stack developer with industry experience building websites and web applications. My field ofinterest includes but not limited to Web Development, Scalability, Machine Learning AI, Data Science.',
   socialLinks: {
     facebook: 'https://www.facebook.com/nguptaa183',
     twitter: 'http://www.twitter.com/ngupta183',
