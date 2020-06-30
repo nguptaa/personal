@@ -38,16 +38,14 @@ export const Intro = () => {
               I am a Full Stack developer with industry experience building websites and web applications. My field of
               interest includes but not limited to Web Development, Scalability, Machine Learning/AI, Data Science.
             </p>
-            {/* I have experience working with Python, C/C++, Flutter/Dart, HTML, CSS, JavaScript, nodeJS, ReactJS, PHP,
-            VCS/Git, BootStrap. */}
-            {/* <div className="button-greeting-div">
+            <div className="button-greeting-div">
               <Button as={AnchorLink} href="#contact">
                 Hire me
               </Button>
               <Button as={AnchorLink} href="#contact">
                 Resume
               </Button>
-            </div> */}
+            </div>
           </Details>
           <Thumbnail>
             <img src={manOnTable} alt="I’m Nikhil and I’m a Full Stack developer!" />

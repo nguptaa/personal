@@ -13,11 +13,11 @@ export const IntroWrapper = styled.div`
 export const Details = styled.div`
   flex: 1;
 
-  ${'' /* div.button-greeting-div {
+  div.button-greeting-div {
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
-  } */}
+  }
   h1 {
     font-size: 3rem;
   }
@@ -28,7 +28,7 @@ export const Details = styled.div`
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #586069;
   }
 
@@ -45,10 +45,10 @@ export const Details = styled.div`
     }
   }
   @media (max-width: 960px) {
-    ${'' /* div.button-greeting-div {
+    div.button-greeting-div {
       align-items: center;
       justify-content: center;
-    } */}
+    }
 
     h1 {
       font-size: 30px;
