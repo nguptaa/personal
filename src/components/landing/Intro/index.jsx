@@ -42,7 +42,7 @@ export const Intro = () => {
               <Button as={AnchorLink} href="mailto:hire@ngupta.me">
                 <b>Hire Me</b>
               </Button>
-              <Button as={AnchorLink} href={Resume} target="_blank" rel="noopener noreferrer">
+              <Button as={AnchorLink} href={Resume} target="_blank">
                 <b>Resume</b>
               </Button>
             </div>
