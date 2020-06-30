@@ -39,11 +39,11 @@ export const Intro = () => {
               interest includes but not limited to Web Development, Scalability, Machine Learning/AI, Data Science.
             </p>
             <div className="button-greeting-div">
-              <Button as={AnchorLink} href="#contact">
-                Hire me
+              <Button as={AnchorLink} href="">
+                <b>Hire Me</b>
               </Button>
-              <Button as={AnchorLink} href="#contact">
-                Resume
+              <Button as={AnchorLink} href="mailto:hire@ngupta.me">
+                <b>Resume</b>
               </Button>
             </div>
           </Details>
