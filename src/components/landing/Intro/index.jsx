@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import manOnTable from 'assets/illustrations/manOnTable.svg';
-// import mouse from 'assets/icons/mouse.svg';
+import Resume from 'assets/Resume/Nikhil_Gupta_Resume.pdf';
 import { IntroWrapper, Details, Thumbnail } from './styles';
 import './style.css';
 
@@ -42,12 +42,7 @@ export const Intro = () => {
               <Button as={AnchorLink} href="mailto:hire@ngupta.me">
                 <b>Hire Me</b>
               </Button>
-              <Button
-                as={AnchorLink}
-                href="assets/Resume/Nikhil_Gupta_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Button as={AnchorLink} href={Resume} target="_blank" rel="noopener noreferrer">
                 <b>Resume</b>
               </Button>
             </div>
