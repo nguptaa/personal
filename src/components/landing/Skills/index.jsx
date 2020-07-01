@@ -83,6 +83,12 @@ export const Skills = () => (
               </i>
               <p>GatsbyJS</p>
             </li>
+            <li className="software-skill-inline" name="bootstrap">
+              <i>
+                <FaBootstrap />
+              </i>
+              <p>Bootstrap</p>
+            </li>
             <li className="software-skill-inline" name="mysql">
               <i>
                 <DiMysql />
