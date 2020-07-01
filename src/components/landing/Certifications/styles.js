@@ -15,5 +15,6 @@ export const WorkExpWrapper = styled.div`
   h6 {
     color: #586069;
     font-weight: 200;
+    margin-bottom: 0.5rem !important;
   }
 `;

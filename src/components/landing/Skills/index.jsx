@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'components/common';
-import dev from 'assets/illustrations/skills.svg';
+import stack from 'assets/illustrations/stack.svg';
 import { FaPython, FaCuttlefish, FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaNode } from 'react-icons/fa';
 import { DiMysql, DiMongodb, DiDart, DiPhp, DiGit, DiLinux } from 'react-icons/di';
 import { RiFlutterLine } from 'react-icons/ri';
@@ -10,13 +10,13 @@ import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (
   <Fade bottom duration={1000} distance="20px">
-    <Wrapper id="about">
-      <SkillsWrapper as={Container}>
+    <Wrapper as={Container}>
+      <h1>Skills</h1>
+      <SkillsWrapper>
         <Thumbnail>
-          <img src={dev} alt="I’m Nikhil and I’m a Full Stack Developer" />
+          <img src={stack} alt="I’m Nikhil and I’m a Full Stack Developer" />
         </Thumbnail>
         <Details>
-          <h1>Skills</h1>
           <div className="software-skills-main-div">
             <ul className="dev-icons">
               <li className="software-skill-inline" name="python">
