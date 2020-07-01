@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   }
   h6 {
     color: #586069;
+    font-weight: 200;
   }
 
   @media (max-width: 960px) {
