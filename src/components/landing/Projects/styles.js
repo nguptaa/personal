@@ -2,8 +2,12 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
+  div.seeMoreProjects {
+    text-align: center;
+    margin-top: 1rem;
+  }
   @media (max-width: 960px) {
-    h2 {
+    h1 {
       text-align: center;
     }
   }

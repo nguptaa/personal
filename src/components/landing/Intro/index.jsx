@@ -40,14 +40,10 @@ export const Intro = () => {
             </p>
             <div className="button-greeting-div">
               <a href="mailto:hire@ngupta.me">
-                <Button>
-                  <b>Hire Me</b>
-                </Button>
+                <Button>Hire Me</Button>
               </a>
               <a href={Resume} target="_blank" rel="noopener noreferrer">
-                <Button>
-                  <b>Resume</b>
-                </Button>
+                <Button>Resume</Button>
               </a>
             </div>
           </Details>

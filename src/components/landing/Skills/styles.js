@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     text-align: center;
   }
 `;
@@ -26,7 +26,34 @@ export const Details = styled.div`
   flex: 1;
   padding-left: 2rem;
 
+  ul {
+    padding-left: 0;
+    margin-left: 0 !important;
+    list-style: none;
+    font-size: 3rem;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  i {
+    color: #868e96;
+  }
+
+  i:hover {
+    color: #572b8b;
+  }
+  p {
+    color: #868e96;
+    font-size: 10px;
+  }
+
   @media (max-width: 960px) {
+    text-align: center;
     padding-left: unset;
     width: 100%;
   }
@@ -39,7 +66,7 @@ export const Details = styled.div`
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.3;
     color: #707070;
