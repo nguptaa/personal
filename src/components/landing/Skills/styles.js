@@ -27,8 +27,8 @@ export const Details = styled.div`
   padding-left: 2rem;
 
   ul {
-    padding-left: 0;
     margin-left: 0 !important;
+    margin-bottom: 0 !important;
     list-style: none;
     font-size: 3rem;
   }
