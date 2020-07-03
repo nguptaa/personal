@@ -4,9 +4,10 @@ import { Wrapper } from './styles';
 
 const NavbarLinks = ({ desktop }) => (
   <Wrapper desktop={desktop}>
-    {/* <AnchorLink href="#about">About</AnchorLink> */}
     <AnchorLink href="#projects">Projects</AnchorLink>
-    <AnchorLink href="#about">Experiences</AnchorLink>
+    <AnchorLink href="#WorkExp">Experiences</AnchorLink>
+    <AnchorLink href="#skills">Skills</AnchorLink>
+    <AnchorLink href="#certifications">Certifications</AnchorLink>
     <AnchorLink href="#contact">Contact</AnchorLink>
   </Wrapper>
 );

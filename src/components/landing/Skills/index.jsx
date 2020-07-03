@@ -10,7 +10,7 @@ import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (
   <Fade bottom duration={1000} distance="20px">
-    <Wrapper as={Container}>
+    <Wrapper as={Container} id="skills">
       <h1>Skills</h1>
       <SkillsWrapper>
         <Thumbnail>

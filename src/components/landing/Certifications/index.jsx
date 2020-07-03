@@ -5,7 +5,7 @@ import { Wrapper, WorkExpWrapper } from './styles';
 
 export const Certifications = () => (
   <Fade bottom duration={1000} distance="20px">
-    <Wrapper as={Container} id="WorkExp">
+    <Wrapper as={Container} id="certifications">
       <h1>Certifications</h1>
       <WorkExpWrapper>
         <h3>The Complete 2020 Flutter Development Bootcamp with Dart</h3>
