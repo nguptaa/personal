@@ -1,0 +1,16 @@
+.bg-main-404 {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url('/icons/github.svg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.bg-content-404 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
